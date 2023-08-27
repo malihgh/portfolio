@@ -1,6 +1,6 @@
 import {createGlobalStyle} from 'styled-components';
-import Poppins from '../../assets/fonts/Poppins-Regular.woff';
-import Poppins2 from '../../assets/fonts/Poppins-Regular.woff2';
+import Poppins from 'assets/fonts/Poppins-Regular.woff';
+import Poppins2 from 'assets/fonts/Poppins-Regular.woff2';
 
 
 export default createGlobalStyle`

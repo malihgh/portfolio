@@ -1,4 +1,4 @@
-import GlobalStyle from '../core/styles/globalStyle';
+import GlobalStyle from 'core/styles/globalStyle';
 import * as Styled from './styles'
 
 
