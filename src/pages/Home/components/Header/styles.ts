@@ -2,6 +2,10 @@ import styled from "@emotion/styled";
 import { Button } from "@mui/material";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
+interface PageNameType extends MuiEmotion {
+  active: boolean;
+}
+
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -25,8 +29,9 @@ export const Pages = styled.div`
   justify-content: space-between;
 `;
 
-export const PageName = styled.div<MuiEmotion>`
-  color: ${({ theme }) => theme.palette.text.primary};
+export const PageName = styled.div<PageNameType>`
+  color: ${({ theme, active }) =>
+    active ? theme.palette.secondary.main : theme.palette.text.primary};
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
