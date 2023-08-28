@@ -39,7 +39,7 @@ export const PageName = styled.div<PageNameType>`
   line-height: normal;
 
   @media only screen and (max-width: 740px) {
-    display: none;
+    display: none; //fix it later
   }
 `;
 
@@ -53,4 +53,8 @@ export const CV = styled(Button)<MuiEmotion>`
   background-color: ${({ theme }) => theme.palette.primary.main};
   color: ${({ theme }) => theme.palette.text.secondary};
   margin-left: 55px;
+
+  :hover {
+    background-color: ${({ theme }) => theme.palette.primary.main};
+  }
 `;
