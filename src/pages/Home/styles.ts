@@ -15,3 +15,18 @@ export const Container = styled.div<MuiEmotion>`
     padding: 15px 15px;
   }
 `;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Pic = styled.div`
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`;
