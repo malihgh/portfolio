@@ -1,13 +1,13 @@
-import GlobalStyle from 'core/styles/globalStyle';
-import * as Styled from './styles'
-
+import * as Styled from "./styles";
+import StyledThemeProvider from "core/provider/ThemeProvider/ThemeProvider";
 
 function App() {
   return (
-    <Styled.Container>
-      <GlobalStyle/>
-      <div>Hello</div>
-    </Styled.Container>
+    <StyledThemeProvider>
+      <Styled.Container>
+        <div>Hello</div>
+      </Styled.Container>
+    </StyledThemeProvider>
   );
 }
 
