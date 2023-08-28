@@ -4,7 +4,7 @@ import background from "assets/Images/home-background.png";
 
 export const Container = styled.div<MuiEmotion>`
   font-family: "Poppins", sans-serif;
-  background-color: rgba(47, 191, 191, 14%);
+  background-color: ${({ theme }) => theme.palette.primary.light};
   height: 100vh;
   background-image: url(${background});
   background-size: contain; //cover

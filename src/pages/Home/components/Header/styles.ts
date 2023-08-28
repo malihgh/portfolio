@@ -25,8 +25,8 @@ export const Pages = styled.div`
   justify-content: space-between;
 `;
 
-export const PageName = styled.div`
-  color: #303535;
+export const PageName = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.text.primary};
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -42,10 +42,10 @@ export const CV = styled(Button)<MuiEmotion>`
   display: flex;
   padding: 13px 0px;
   min-width: 150px;
-  align-items: flex-start;
   border-radius: 38px;
-  background-color: ${({ theme }) => theme.palette.primary.main};
-  color: white;
+  align-items: flex-start;
   font-family: "Poppins", sans-serif;
+  background-color: ${({ theme }) => theme.palette.primary.main};
+  color: ${({ theme }) => theme.palette.text.secondary};
   margin-left: 55px;
 `;
