@@ -22,11 +22,3 @@ export const Row = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
-
-export const Pic = styled.div`
-  flex: 3;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-`;
