@@ -19,7 +19,7 @@ export const Frame = styled.div<MuiEmotion>`
   width: ${profileWidth + 20 + "px"};
   height: ${profileHeight + 20 + "px"};
   flex-shrink: 0;
-  border-radius: 280px;
+  border-radius: ${profileWidth + "px"};
   margin: 30px 0 0 30px;
   /* border: ${({ theme }) => `2xp solid ${theme.palette.secondary.main}`}; */
   border: 2px solid white; //fix it
@@ -32,5 +32,5 @@ export const Profile = styled.img<MuiEmotion>`
   width: ${profileWidth + "px"};
   height: ${profileHeight + "px"};
   flex-shrink: 0;
-  border-radius: 280px;
+  border-radius: ${profileWidth + "px"};
 `;
