@@ -47,13 +47,12 @@ export const Shape = styled.img<MuiEmotion>`
   width: 120px;
   position: absolute;
   top: -70px;
-  right: 10px;
-  transform: rotate(-13deg);
+  right: 20px;
 `;
 
 export const Pointer = styled.img`
   width: 120px;
   position: absolute;
-  bottom: -50px;
+  bottom: -30px;
   right: 0;
 `;
