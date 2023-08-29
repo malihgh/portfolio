@@ -43,7 +43,6 @@ export const Text = styled.div<MuiEmotion>`
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
-  /* line-height: 28px; */
 
   strong {
     font-weight: 600;
