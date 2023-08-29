@@ -1,6 +1,6 @@
 import Header from "pages/Home/components/Header";
 import * as Styled from "./styles";
-import Info from "pages/Home/components/Info/Info";
+import Info from "pages/Home/components/Intro/Intro";
 import Profile from "./components/Profile/Profile";
 
 const Home = () => {

@@ -2,9 +2,9 @@ import * as Styled from "./styles";
 import pointer from "assets/Images/pinter-short-green.png";
 import exicted from "assets/Images/excited-shape.png";
 
-const Info = () => {
+const Intro = () => {
   return (
-    <Styled.InfoContainer>
+    <Styled.IntroContainer>
       <Styled.Shape src={exicted} />
       <Styled.Pointer src={pointer} />
       <Styled.Title>
@@ -16,8 +16,8 @@ const Info = () => {
         such as React JS and Vue JS.
       </Styled.Description>
       <Styled.StartedButton>Get Started</Styled.StartedButton>
-    </Styled.InfoContainer>
+    </Styled.IntroContainer>
   );
 };
 
-export default Info;
+export default Intro;

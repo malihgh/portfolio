@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { Button } from "@mui/material";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
-export const InfoContainer = styled.div<MuiEmotion>`
+export const IntroContainer = styled.div<MuiEmotion>`
   position: relative;
   margin-top: 100px;
   flex: 5;
