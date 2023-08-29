@@ -3,18 +3,8 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const SkillContainer = styled.div<MuiEmotion>`
   //padding add to theme
-  padding: 20px 85px;
+  padding: 30px 85px;
   padding-bottom: 80px;
-`;
-
-export const Title = styled.div<MuiEmotion>`
-  color: ${({ theme }) => theme.palette.text.primary};
-  text-align: center;
-  font-family: "Poppins-Bold", sans-serif;
-  font-size: 44px;
-  font-style: normal;
-  line-height: 48px;
-  margin-top: 30px;
   position: relative;
 `;
 
@@ -42,11 +32,6 @@ export const Row = styled.div`
 export const Star = styled.img`
   width: 50px;
   position: absolute;
-  top: -10px;
-  left: 10px;
-`;
-
-export const Shape = styled.img`
-  width: 50px;
-  margin-bottom: 30px;
+  top: 50px;
+  left: 100px;
 `;
