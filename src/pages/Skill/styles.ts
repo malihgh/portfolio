@@ -26,7 +26,7 @@ export const SubTitle = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-top: 17px;
   margin-bottom: 40px;
