@@ -24,4 +24,9 @@ export const Star = styled.img`
   position: absolute;
   top: 50px;
   left: 100px;
+
+  @media only screen and (max-width: 740px) {
+    top: 15px;
+    left: 20px;
+  }
 `;

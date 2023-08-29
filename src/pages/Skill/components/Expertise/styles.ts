@@ -5,6 +5,11 @@ export const Container = styled.div<MuiEmotion>`
   flex: 1;
   padding-left: 40px;
   padding-bottom: 20px;
+
+  @media only screen and (max-width: 740px) {
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
 `;
 
 export const TitleContainer = styled.div`
