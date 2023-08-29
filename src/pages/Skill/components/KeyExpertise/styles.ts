@@ -14,10 +14,10 @@ export const Title = styled.div<MuiEmotion>`
   color: ${({ theme }) => theme.palette.text.primary}; /* color: #4a4a4a; */
   text-align: center;
   font-family: "Poppins-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 32px;
   font-style: normal;
   line-height: 48px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;
 
 export const Expertise = styled.div<MuiEmotion>`
@@ -27,8 +27,8 @@ export const Expertise = styled.div<MuiEmotion>`
   justify-content: flex-start;
   padding: 12px;
   border-radius: 8px;
-  background: ${({ theme }) => theme.palette.primary.light};
-  /* background: #eaf3f3; */
+  /* background: ${({ theme }) => theme.palette.primary.light}; */
+  background: #eaf3f3;
   margin-bottom: 10px;
 `;
 
@@ -43,7 +43,7 @@ export const Text = styled.div<MuiEmotion>`
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
-  line-height: 28px;
+  /* line-height: 28px; */
 
   strong {
     font-weight: 600;

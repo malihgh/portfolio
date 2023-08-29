@@ -1,5 +1,6 @@
-import KeyExpertise from "pages/Skill/components/KeyExpertise/KeyExpertise";
 import * as Styled from "./styles";
+import KeyExpertise from "pages/Skill/components/KeyExpertise";
+import Expertise from "pages/Skill/components/Expertise";
 
 const Skill = () => {
   return (
@@ -12,7 +13,7 @@ const Skill = () => {
 
       <Styled.Row>
         <KeyExpertise />
-        <Styled.Ex>Ex</Styled.Ex>
+        <Expertise />
       </Styled.Row>
     </Styled.SkillContainer>
   );

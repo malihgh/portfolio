@@ -26,7 +26,7 @@ export const SubTitle = styled.div`
   width: 50%;
   margin: auto;
   margin-top: 17px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 `;
 
 export const Row = styled.div`
@@ -34,8 +34,4 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-`;
-
-export const Ex = styled.div`
-  flex: 1;
 `;
