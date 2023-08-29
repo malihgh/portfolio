@@ -7,12 +7,12 @@ import HeaderWithIcon from "core/components/HeaderWithIcon/HeaderWithIcon";
 const Skill = () => {
   return (
     <Styled.SkillContainer>
-      <HeaderWithIcon title="My Skills" />
+      <HeaderWithIcon
+        title="My Skills"
+        subTitle="Here you will find more information, what I do, and my current skills
+        mostly in terms of programming and technology"
+      />
       <Styled.Star src={star} />
-      <Styled.SubTitle>
-        Here you will find more information, what I do, and my current skills
-        mostly in terms of programming and technology
-      </Styled.SubTitle>
 
       <Styled.Row>
         <KeyExpertise />

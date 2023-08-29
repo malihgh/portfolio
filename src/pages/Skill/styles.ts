@@ -8,25 +8,15 @@ export const SkillContainer = styled.div<MuiEmotion>`
   position: relative;
 `;
 
-export const SubTitle = styled.div`
-  color: #6c6c6c; //fix
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  width: 60%;
-  margin: auto;
-  margin-top: 17px;
-  margin-bottom: 40px;
-`;
-
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media only screen and (max-width: 740px) {
+    flex-direction: column;
+  }
 `;
 
 export const Star = styled.img`
