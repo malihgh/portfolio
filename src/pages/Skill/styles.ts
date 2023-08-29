@@ -1,7 +1,10 @@
 import styled from "@emotion/styled";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
-export const SkillContainer = styled.div<MuiEmotion>``;
+export const SkillContainer = styled.div<MuiEmotion>`
+  //padding add to theme
+  padding: 20px 85px;
+`;
 
 export const Title = styled.div<MuiEmotion>`
   color: ${({ theme }) => theme.palette.text.primary};
@@ -10,7 +13,7 @@ export const Title = styled.div<MuiEmotion>`
   font-size: 44px;
   font-style: normal;
   line-height: 48px;
-  margin-top: 90px;
+  margin-top: 50px;
 `;
 export const SubTitle = styled.div`
   color: #6c6c6c; //fix
@@ -23,4 +26,16 @@ export const SubTitle = styled.div`
   width: 50%;
   margin: auto;
   margin-top: 17px;
+  margin-bottom: 30px;
+`;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Ex = styled.div`
+  flex: 1;
 `;

@@ -1,3 +1,4 @@
+import KeyExpertise from "pages/Skill/components/KeyExpertise/KeyExpertise";
 import * as Styled from "./styles";
 
 const Skill = () => {
@@ -8,6 +9,11 @@ const Skill = () => {
         Here you will find more information, what I do, and my current skills
         mostly in terms of programming and technology
       </Styled.SubTitle>
+
+      <Styled.Row>
+        <KeyExpertise />
+        <Styled.Ex>Ex</Styled.Ex>
+      </Styled.Row>
     </Styled.SkillContainer>
   );
 };
