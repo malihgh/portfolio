@@ -1,15 +1,18 @@
 import { FC } from "react";
 import * as Styled from "./styles";
+import { ButtonProps } from "@mui/material";
 
-type Props = {
+interface Props extends ButtonProps {
   title: string;
-};
+  color?: "primary" | "secondary";
+}
 
 const Button: FC<Props> = (props) => {
   const { title } = props;
+
   return (
     <Styled.ButtonContainer>
-      <Styled.FilledButton>{title}</Styled.FilledButton>
+      <Styled.FilledButton {...props}>{title}</Styled.FilledButton>
     </Styled.ButtonContainer>
   );
 };
