@@ -1,11 +1,11 @@
 import * as Styled from "./styles";
 import pointer from "assets/Images/pinter-short-green.png";
-import exicted from "assets/Images/excited-shape.png";
+import excited from "assets/Images/excited-shape.png";
 
 const Intro = () => {
   return (
     <Styled.IntroContainer>
-      <Styled.Shape src={exicted} />
+      <Styled.Shape src={excited} />
       <Styled.Pointer src={pointer} />
       <Styled.Title>
         Hello, I’m Maliheh Ghasemian A Front End Developer
