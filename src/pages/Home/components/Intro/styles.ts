@@ -2,10 +2,14 @@ import styled from "@emotion/styled";
 import { Button } from "@mui/material";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
-export const IntroContainer = styled.div<MuiEmotion>`
+export const IntroContainer = styled.div`
   position: relative;
-  margin-top: 100px;
+  margin-top: 110px;
   flex: 5;
+
+  @media only screen and (max-width: 740px) {
+    margin-top: 50px;
+  }
 `;
 
 export const Title = styled.div<MuiEmotion>`
@@ -42,11 +46,16 @@ export const StartedButton = styled(Button)<MuiEmotion>`
   }
 `;
 
-export const Shape = styled.img<MuiEmotion>`
+export const Shape = styled.img`
   width: 120px;
   position: absolute;
   top: -70px;
   right: 20px;
+
+  @media only screen and (max-width: 740px) {
+    top: -40px;
+    right: 0px;
+  }
 `;
 
 export const Pointer = styled.img`
@@ -54,4 +63,8 @@ export const Pointer = styled.img`
   position: absolute;
   bottom: -30px;
   right: 0;
+
+  @media only screen and (max-width: 740px) {
+    display: none;
+  }
 `;

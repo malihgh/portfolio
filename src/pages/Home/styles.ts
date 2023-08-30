@@ -5,14 +5,14 @@ import background from "assets/Images/home-background.png";
 export const Container = styled.div<MuiEmotion>`
   font-family: "Poppins", sans-serif;
   background-color: ${({ theme }) => theme.palette.primary.light};
-  /* height: 100vh; */
+  height: 100vh;
   background-image: url(${background});
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 50px 85px;
+  padding: 0px 85px;
 
   @media only screen and (max-width: 740px) {
-    padding: 15px 15px;
+    padding: 0px 55px;
   }
 `;
 

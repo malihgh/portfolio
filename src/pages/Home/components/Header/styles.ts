@@ -11,6 +11,7 @@ export const HeaderContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
 `;
 
 export const Name = styled.div<MuiEmotion>`
@@ -39,6 +40,9 @@ export const PageName = styled.div<PageNameType>`
   line-height: normal;
 
   @media only screen and (max-width: 740px) {
+    display: none; //fix it later
+  }
+  @media only screen and (min-width: 740px) and (max-width: 1024px) {
     display: none; //fix it later
   }
 `;

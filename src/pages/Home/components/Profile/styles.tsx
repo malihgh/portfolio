@@ -13,6 +13,9 @@ export const ProfileContainer = styled.div`
   @media only screen and (max-width: 740px) {
     display: none; //fix it later
   }
+  @media only screen and (min-width: 740px) and (max-width: 1024px) {
+    display: none; //fix it later
+  }
 `;
 
 export const Frame = styled.div<MuiEmotion>`
@@ -29,21 +32,21 @@ export const Frame = styled.div<MuiEmotion>`
   align-items: center;
 `;
 
-export const Profile = styled.img<MuiEmotion>`
+export const Profile = styled.img`
   width: ${profileWidth + "px"};
   height: ${profileHeight + "px"};
   flex-shrink: 0;
   border-radius: ${profileWidth + "px"};
 `;
 
-export const StarTop = styled.img<MuiEmotion>`
+export const StarTop = styled.img`
   width: 75px;
   position: absolute;
   top: 30px;
   right: 17px;
 `;
 
-export const StarBottom = styled.img<MuiEmotion>`
+export const StarBottom = styled.img`
   width: 30px;
   position: absolute;
   left: 50px;

@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <Styled.Container>
       <Header />
+
       <Styled.Row>
         <Intro />
         <Profile />
