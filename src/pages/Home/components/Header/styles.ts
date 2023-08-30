@@ -42,6 +42,9 @@ export const PageName = styled.div<PageNameType>`
   @media only screen and (max-width: 740px) {
     display: none; //fix it later
   }
+  @media only screen and (min-width: 740px) and (max-width: 1024px) {
+    display: none; //fix it later
+  }
 `;
 
 export const CV = styled(Button)<MuiEmotion>`

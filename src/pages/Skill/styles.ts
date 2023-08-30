@@ -6,6 +6,10 @@ export const SkillContainer = styled.div<MuiEmotion>`
   height: 100vh;
   padding: 0px 85px;
   position: relative;
+
+  @media only screen and (max-width: 740px) {
+    padding: 0px 55px;
+  }
 `;
 
 export const Row = styled.div`
@@ -14,6 +18,7 @@ export const Row = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
+
   @media only screen and (max-width: 740px) {
     flex-direction: column;
   }

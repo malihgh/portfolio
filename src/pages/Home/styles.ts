@@ -12,7 +12,7 @@ export const Container = styled.div<MuiEmotion>`
   padding: 0px 85px;
 
   @media only screen and (max-width: 740px) {
-    padding: 15px 15px;
+    padding: 0px 55px;
   }
 `;
 
