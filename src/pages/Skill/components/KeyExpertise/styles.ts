@@ -20,7 +20,7 @@ export const Title = styled.div<MuiEmotion>`
   margin-bottom: 20px;
 `;
 
-export const Expertise = styled.div<MuiEmotion>`
+export const KeyExpertise = styled.div<MuiEmotion>`
   display: flex;
   flex-direction: row;
   align-items: center;

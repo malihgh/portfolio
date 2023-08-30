@@ -10,10 +10,10 @@ const KeyExpertise = () => {
       </Styled.TitleContainer>
 
       {KeyExpertiseList.map((item) => (
-        <Styled.Expertise key={item.id}>
+        <Styled.KeyExpertise key={item.id}>
           <Styled.Arrow src={arrow} />
           <Styled.Text>{item.title}</Styled.Text>
-        </Styled.Expertise>
+        </Styled.KeyExpertise>
       ))}
     </Styled.Container>
   );
