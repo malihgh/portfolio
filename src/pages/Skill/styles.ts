@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
-import { MuiEmotion } from "core/types/MuiEmotion";
 
-export const SkillContainer = styled.div<MuiEmotion>`
+export const SkillContainer = styled.div`
   //padding add to theme
   height: 100vh;
   padding: 0px 85px;
