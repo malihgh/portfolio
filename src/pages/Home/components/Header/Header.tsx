@@ -1,3 +1,4 @@
+import Button from "core/components/Button";
 import * as Styled from "./styles";
 
 const pages = [
@@ -17,7 +18,7 @@ const Header = () => {
           <Styled.PageName active={page.id === 0}>{page.name}</Styled.PageName>
         </Styled.Pages>
       ))}
-      <Styled.CV>Download CV</Styled.CV>
+      <Button title="Download CV" style={{ marginLeft: 55 }} />
     </Styled.HeaderContainer>
   );
 };

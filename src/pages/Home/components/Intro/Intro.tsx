@@ -1,6 +1,7 @@
 import * as Styled from "./styles";
 import pointer from "assets/Images/pinter-short-green.png";
 import excited from "assets/Images/excited-shape.png";
+import Button from "core/components/Button";
 
 const Intro = () => {
   return (
@@ -15,7 +16,8 @@ const Intro = () => {
         SUPSI as a front-end developer, working with a variety of technologies
         such as React JS and Vue JS.
       </Styled.Description>
-      <Styled.StartedButton>Get Started</Styled.StartedButton>
+
+      <Button title="Get Started" style={{ marginTop: 55 }} />
     </Styled.IntroContainer>
   );
 };

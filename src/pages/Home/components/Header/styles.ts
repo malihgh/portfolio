@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { Button } from "@mui/material";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
 interface PageNameType extends MuiEmotion {
@@ -44,21 +43,5 @@ export const PageName = styled.div<PageNameType>`
   }
   @media only screen and (min-width: 740px) and (max-width: 1024px) {
     display: none; //fix it later
-  }
-`;
-
-export const CV = styled(Button)<MuiEmotion>`
-  display: flex;
-  padding: 13px 0px;
-  min-width: 150px;
-  border-radius: 38px;
-  align-items: flex-start;
-  font-family: "Poppins", sans-serif;
-  background-color: ${({ theme }) => theme.palette.primary.main};
-  color: ${({ theme }) => theme.palette.text.secondary};
-  margin-left: 55px;
-
-  :hover {
-    background-color: ${({ theme }) => theme.palette.primary.main};
   }
 `;
