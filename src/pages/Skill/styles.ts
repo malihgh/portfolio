@@ -3,8 +3,8 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const SkillContainer = styled.div<MuiEmotion>`
   //padding add to theme
-  padding: 30px 85px;
-  padding-bottom: 80px;
+  height: 100vh;
+  padding: 0px 85px;
   position: relative;
 `;
 
@@ -13,7 +13,7 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
+  margin-top: 50px;
   @media only screen and (max-width: 740px) {
     flex-direction: column;
   }
