@@ -15,6 +15,7 @@ const AboutIntro = () => {
         title="About Me"
         titleStyle={{ textAlign: "left", paddingLeft: 0, paddingBottom: 10 }}
       />
+
       <Styled.Description>
         I’m 26 and I’m living in Lugano and I hold a{" "}
         <strong>Swiss Work Permit (B)</strong>. I received my bachelor’s in
@@ -26,14 +27,13 @@ const AboutIntro = () => {
         websites.
         <div style={{ marginTop: 15 }} />
         Currently, I am a Front‑End Developer at the Geomatics group at SUPSI,
-        where I work on different projects mainly with <strong>
-          React
-        </strong>{" "}
-        and Vue JS. For instance, lately I built a new website, GESPOS, for
-        managing geomatics surveys collected in Canton Ticino. Working with
-        OpenLayer, Ionic, Vue JS and many other new technologies in a short
-        period of time increased my confidence in learning and using new
-        knowledge and technologies faster and more efficiently.
+        where I work on different projects mainly with
+        <strong> React</strong> and Vue JS. For instance, lately I built a new
+        website, GESPOS, for managing geomatics surveys collected in Canton
+        Ticino. Working with OpenLayer, Ionic, Vue JS and many other new
+        technologies in a short period of time increased my confidence in
+        learning and using new knowledge and technologies faster and more
+        efficiently.
       </Styled.Description>
 
       <Styled.Row>
