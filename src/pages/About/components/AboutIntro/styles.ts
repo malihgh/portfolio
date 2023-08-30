@@ -3,33 +3,80 @@ import styled from "@emotion/styled";
 
 export const AboutIntroContainer = styled.div`
   position: relative;
-  /* margin-top: 110px; */
+  margin-top: 30px;
   flex: 5;
   padding-left: 50px;
 
   @media only screen and (max-width: 740px) {
-    margin-top: 50px;
+    padding-left: 0px;
   }
 `;
 
 export const Description = styled.div`
   color: #6c6c6c;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 27px;
+  line-height: 25px;
 
   strong {
     font-weight: 600;
+    //also change color to darker a bit
   }
 `;
 
-export const Shape = styled.img`
-  width: 120px;
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 430px;
+
+  @media only screen and (max-width: 740px) {
+    width: 340px;
+    margin-top: 20px;
+  }
+`;
+
+export const Line = styled.div`
+  color: #8f8f8f;
+  margin-top: -3px;
+
+  @media only screen and (max-width: 740px) {
+    display: none;
+  }
+`;
+
+export const Text = styled.div`
+  color: #a0a0a0;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 4px;
+`;
+
+export const IconRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+`;
+
+export const Icon = styled.img`
+  width: 22px;
+  height: 22px;
+`;
+
+export const Star = styled.img`
+  width: 50px;
   position: absolute;
-  top: -70px;
-  right: 20px;
+  top: -30px;
+  right: 80px;
 
   @media only screen and (max-width: 740px) {
     top: -40px;

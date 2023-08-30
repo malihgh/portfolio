@@ -1,13 +1,20 @@
 import HeaderWithIcon from "core/components/HeaderWithIcon/HeaderWithIcon";
 import * as Styled from "./styles";
-// import pointer from "assets/images/pinter-short-green.png";
-// import excited from "assets/images/excited-shape.png";
-// import Button from "core/components/Button";
+import star from "assets/images/star-outlined.png";
+import Button from "core/components/Button";
+import Linkedin from "assets/images/in.png";
+import github from "assets/images/github.png";
+import gitlab from "assets/images/gitlab.png";
 
 const AboutIntro = () => {
   return (
     <Styled.AboutIntroContainer>
-      <HeaderWithIcon title="About Me" />
+      <Styled.Star src={star} />
+
+      <HeaderWithIcon
+        title="About Me"
+        titleStyle={{ textAlign: "left", paddingLeft: 0, paddingBottom: 10 }}
+      />
       <Styled.Description>
         I’m 26 and I’m living in Lugano and I hold a{" "}
         <strong>Swiss Work Permit (B)</strong>. I received my bachelor’s in
@@ -28,8 +35,18 @@ const AboutIntro = () => {
         period of time increased my confidence in learning and using new
         knowledge and technologies faster and more efficiently.
       </Styled.Description>
-      {/* <Styled.Shape src={excited} /> */}
-      {/* <Button title="Hire Me" style={{ marginTop: 40 }} /> */}
+
+      <Styled.Row>
+        <Button title="Hire Me" />
+        <Styled.Line>_________</Styled.Line>
+        <Styled.Text>Follow Me</Styled.Text>
+
+        <Styled.IconRow>
+          <Styled.Icon src={Linkedin} />
+          <Styled.Icon src={github} />
+          <Styled.Icon src={gitlab} />
+        </Styled.IconRow>
+      </Styled.Row>
     </Styled.AboutIntroContainer>
   );
 };
