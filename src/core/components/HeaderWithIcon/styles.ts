@@ -11,10 +11,6 @@ export const Title = styled.div<MuiEmotion>`
   font-style: normal;
   line-height: 48px;
   padding: 30px;
-
-  @media only screen and (max-width: 740px) {
-    position: relative;
-  }
 `;
 
 export const SubTitle = styled.div`
@@ -38,9 +34,7 @@ export const Shape = styled.img`
   width: 50px;
   margin-bottom: 30px;
 
-  @media only screen and (max-width: 740px) {
-    position: absolute;
-    top: -30px;
-    right: -10px;
+  @media only screen and (max-width: 490px) {
+    display: none;
   }
 `;
