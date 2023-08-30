@@ -1,5 +1,5 @@
-import Button from "core/components/Button";
 import * as Styled from "./styles";
+import Button from "core/components/Button";
 
 const pages = [
   { id: 0, name: "Home" },

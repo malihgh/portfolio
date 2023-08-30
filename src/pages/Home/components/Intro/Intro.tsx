@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
-import pointer from "assets/Images/pinter-short-green.png";
-import excited from "assets/Images/excited-shape.png";
+import pointer from "assets/images/pinter-short-green.png";
+import excited from "assets/images/excited-shape.png";
 import Button from "core/components/Button";
 
 const Intro = () => {

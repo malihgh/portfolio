@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
-import StyledThemeProvider from "core/provider/ThemeProvider/ThemeProvider";
-import Home from "pages/Home/Home";
+import StyledThemeProvider from "core/provider/ThemeProvider";
+import Home from "pages/Home";
 import Skill from "pages/Skill";
 
 function App() {

@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { MuiEmotion } from "core/types/MuiEmotion";
-import background from "assets/Images/home-background.png";
+import background from "assets/images/home-background.png";
 
 export const Container = styled.div<MuiEmotion>`
   font-family: "Poppins", sans-serif;

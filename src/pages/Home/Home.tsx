@@ -1,7 +1,7 @@
 import * as Styled from "./styles";
 import Header from "pages/Home/components/Header";
 import Intro from "pages/Home/components/Intro";
-import Profile from "./components/Profile/Profile";
+import Profile from "./components/Profile";
 
 const Home = () => {
   return (
