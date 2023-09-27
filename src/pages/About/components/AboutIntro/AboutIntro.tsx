@@ -13,7 +13,7 @@ const AboutIntro = () => {
 
       <HeaderWithIcon
         title="About Me"
-        titleStyle={{ textAlign: "left", paddingLeft: 0, paddingBottom: 10 }}
+        titleStyle={{ textAlign: "left", paddingLeft: 0, paddingBottom: 20 }}
       />
 
       <Styled.Description>
@@ -38,10 +38,11 @@ const AboutIntro = () => {
 
       <Styled.Row>
         <Button title="Hire Me" />
-        <Styled.Line>_________</Styled.Line>
-        <Styled.Text>Follow Me</Styled.Text>
 
         <Styled.IconRow>
+          <Styled.Text>Follow Me</Styled.Text>
+          <Styled.Line>_________</Styled.Line>
+
           <Styled.Icon src={Linkedin} />
           <Styled.Icon src={github} />
           <Styled.Icon src={gitlab} />

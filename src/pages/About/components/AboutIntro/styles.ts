@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-// import { MuiEmotion } from "core/types/MuiEmotion";
+import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const AboutIntroContainer = styled.div`
   position: relative;
@@ -12,17 +12,18 @@ export const AboutIntroContainer = styled.div`
   }
 `;
 
-export const Description = styled.div`
+export const Description = styled.div<MuiEmotion>`
   color: #6c6c6c;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 25px;
+  text-align: justify;
 
   strong {
-    font-weight: 600;
-    //also change color to darker a bit
+    font-weight: 700;
+    filter: brightness(70%);
   }
 `;
 
@@ -32,10 +33,8 @@ export const Row = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-top: 40px;
-  width: 430px;
 
   @media only screen and (max-width: 740px) {
-    width: 340px;
     margin-top: 20px;
   }
 `;
@@ -44,7 +43,8 @@ export const Line = styled.div`
   color: #8f8f8f;
   margin-top: -3px;
 
-  @media only screen and (max-width: 740px) {
+  //600px bsc it should be the same in ipad size
+  @media only screen and (max-width: 600px) {
     display: none;
   }
 `;
@@ -57,6 +57,10 @@ export const Text = styled.div`
   font-weight: 500;
   line-height: normal;
   margin-top: 4px;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const IconRow = styled.div`
