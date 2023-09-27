@@ -46,8 +46,4 @@ export const Pointer = styled.img`
   position: absolute;
   bottom: -30px;
   right: 0;
-
-  @media only screen and (max-width: 740px) {
-    display: none;
-  }
 `;

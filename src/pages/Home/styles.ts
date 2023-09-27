@@ -14,6 +14,10 @@ export const Container = styled.div<MuiEmotion>`
   @media only screen and (max-width: 740px) {
     padding: 0px 55px;
   }
+  @media only screen and (max-width: 1024px) {
+    height: auto;
+    padding-bottom: 20px;
+  }
 `;
 
 export const Row = styled.div`
