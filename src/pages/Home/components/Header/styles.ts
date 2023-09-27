@@ -1,4 +1,6 @@
 import styled from "@emotion/styled";
+import Button from "core/components/Button";
+
 import { MuiEmotion } from "core/types/MuiEmotion";
 
 interface PageNameType extends MuiEmotion {
@@ -43,5 +45,13 @@ export const PageName = styled.div<PageNameType>`
   }
   @media only screen and (min-width: 740px) and (max-width: 1024px) {
     display: none; //fix it later
+  }
+`;
+
+export const CVButton = styled(Button)`
+  margin-left: 55px;
+
+  @media only screen and (max-width: 740px) {
+    margin-left: 0px;
   }
 `;
