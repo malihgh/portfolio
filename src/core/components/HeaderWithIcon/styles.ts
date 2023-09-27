@@ -33,8 +33,4 @@ export const SubTitle = styled.div`
 export const Shape = styled.img`
   width: 50px;
   margin-bottom: 30px;
-
-  @media only screen and (max-width: 490px) {
-    display: none;
-  }
 `;
