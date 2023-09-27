@@ -9,9 +9,9 @@ const Expertise = () => {
       </Styled.TitleContainer>
 
       {ExpertiseList.map((category) => (
-        <Styled.Category>
-          {category.items.map((item) => (
-            <Styled.Expertise>
+        <Styled.Category key={category.id}>
+          {category.items.map((item, index) => (
+            <Styled.Expertise key={index}>
               <Styled.Text>{item}</Styled.Text>
             </Styled.Expertise>
           ))}
