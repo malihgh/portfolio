@@ -10,7 +10,13 @@ export const AboutContainer = styled.div<MuiEmotion>`
   padding: 0px 85px;
 
   @media only screen and (max-width: 740px) {
-    padding: 0px 55px;
+    padding: 0px 55px 20px 55px;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    height: auto;
+    padding-bottom: 20px;
   }
 `;
 
