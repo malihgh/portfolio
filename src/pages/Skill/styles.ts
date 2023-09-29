@@ -1,15 +1,8 @@
 import styled from "@emotion/styled";
+import ScreenContainer from "core/components/ScreenContainer";
 
-export const SkillContainer = styled.div`
-  //padding add to theme
-  height: 100vh;
-  padding: 0px 85px;
+export const SkillContainer = styled(ScreenContainer)`
   position: relative;
-
-  @media only screen and (max-width: 740px) {
-    padding: 30px 55px;
-    height: auto;
-  }
 `;
 
 export const Row = styled.div`
