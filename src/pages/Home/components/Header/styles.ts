@@ -12,7 +12,7 @@ export const HeaderContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 30px;
 `;
 
 export const Name = styled.div<MuiEmotion>`
@@ -23,6 +23,10 @@ export const Name = styled.div<MuiEmotion>`
   font-weight: 600;
   line-height: normal;
   margin-right: 55px;
+
+  @media only screen and (max-width: 740px) {
+    margin-right: 0px;
+  }
 `;
 
 export const Pages = styled.div`
