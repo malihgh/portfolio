@@ -1,10 +1,8 @@
 import styled from "@emotion/styled";
 import { MuiEmotion } from "core/types/MuiEmotion";
-import background from "assets/images/home-background.png";
+import background from "assets/images/about-background.png";
 
-export const Container = styled.div<MuiEmotion>`
-  font-family: "Poppins", sans-serif;
-  background-color: ${({ theme }) => theme.palette.primary.light};
+export const AboutContainer = styled.div<MuiEmotion>`
   height: 100vh;
   background-image: url(${background});
   background-size: 100% 100%;
@@ -12,8 +10,10 @@ export const Container = styled.div<MuiEmotion>`
   padding: 0px 85px;
 
   @media only screen and (max-width: 740px) {
-    padding: 0px 55px;
+    padding: 0px 55px 20px 55px;
+    height: auto;
   }
+
   @media only screen and (max-width: 1024px) {
     height: auto;
     padding-bottom: 20px;
@@ -25,4 +25,5 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 40px;
 `;

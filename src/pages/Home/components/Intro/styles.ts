@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { Button } from "@mui/material";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const IntroContainer = styled.div`
@@ -30,22 +29,6 @@ export const Description = styled.div<MuiEmotion>`
   margin-top: 20px;
 `;
 
-export const StartedButton = styled(Button)<MuiEmotion>`
-  display: flex;
-  padding: 13px 0px;
-  min-width: 150px;
-  border-radius: 38px;
-  align-items: flex-start;
-  font-family: "Poppins", sans-serif;
-  background-color: ${({ theme }) => theme.palette.primary.main};
-  color: ${({ theme }) => theme.palette.text.secondary};
-  margin-top: 55px;
-
-  :hover {
-    background-color: ${({ theme }) => theme.palette.primary.main};
-  }
-`;
-
 export const Shape = styled.img`
   width: 120px;
   position: absolute;
@@ -63,8 +46,4 @@ export const Pointer = styled.img`
   position: absolute;
   bottom: -30px;
   right: 0;
-
-  @media only screen and (max-width: 740px) {
-    display: none;
-  }
 `;
