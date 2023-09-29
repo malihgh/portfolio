@@ -10,7 +10,7 @@ export const Title = styled.div<MuiEmotion>`
   font-size: 44px;
   font-style: normal;
   line-height: 48px;
-  padding: 30px;
+  padding: 30px 0px 30px 30px;
 `;
 
 export const SubTitle = styled.div`
