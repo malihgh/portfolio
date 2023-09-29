@@ -6,9 +6,10 @@ type Props = {
   title: string;
   subTitle?: string;
   titleStyle?: object;
+  subTitleStyle?: object;
 };
 const HeaderWithIcon: FC<Props> = (props) => {
-  const { title, subTitle, titleStyle } = props;
+  const { title, subTitle, titleStyle, subTitleStyle } = props;
 
   return (
     <Styled.HeaderContainer>
@@ -16,7 +17,9 @@ const HeaderWithIcon: FC<Props> = (props) => {
         {title}
         <Styled.Shape src={shape} />
       </Styled.Title>
-      {subTitle && <Styled.SubTitle>{subTitle}</Styled.SubTitle>}
+      {subTitle && (
+        <Styled.SubTitle style={subTitleStyle}>{subTitle}</Styled.SubTitle>
+      )}
     </Styled.HeaderContainer>
   );
 };
