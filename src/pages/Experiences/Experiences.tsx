@@ -1,4 +1,4 @@
-import ExperienceItem from "./components/ExperienceItem";
+import ExperienceBox from "./components/ExperienceBox";
 import ExperienceTitle from "./components/ExperienceTitle";
 import * as Styled from "./styles";
 
@@ -7,12 +7,7 @@ const Experiences = () => {
     <Styled.ExperiencesContainer>
       <Styled.Row>
         <ExperienceTitle />
-        <Styled.RightPart>
-          <ExperienceItem />
-          <ExperienceItem />
-          <ExperienceItem />
-          <ExperienceItem />
-        </Styled.RightPart>
+        <ExperienceBox />
       </Styled.Row>
     </Styled.ExperiencesContainer>
   );

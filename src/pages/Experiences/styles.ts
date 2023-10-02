@@ -7,8 +7,8 @@ export const Row = styled.div`
   display: flex;
   flex: 1;
   justify-content: space-between;
-`;
 
-export const RightPart = styled.div`
-  flex: 2;
+  @media only screen and (max-width: 740px) {
+    flex-direction: column;
+  }
 `;
