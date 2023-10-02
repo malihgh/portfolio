@@ -1,4 +1,11 @@
-export const KeyExpertiseList = [
+import React from "react";
+
+type KeyExpertiseListType = {
+  id: number;
+  title: React.JSX.Element;
+};
+
+export const KeyExpertiseList: KeyExpertiseListType[] = [
   {
     id: 0,
     title: (
