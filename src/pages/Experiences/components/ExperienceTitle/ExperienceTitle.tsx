@@ -16,7 +16,6 @@ const ExperienceTitle = () => {
           subTitleStyle={{
             textAlign: "left",
             marginLeft: 0,
-            marginBottom: "30px",
           }}
         />
         <Styled.CVButton title="Download CV" />

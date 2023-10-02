@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import Button from "core/components/Button";
 
 export const Container = styled.div`
@@ -13,5 +13,5 @@ export const Pointer = styled.img`
 `;
 
 export const CVButton = styled(Button)`
-  //style dosen't work!!!-> add margin to subtitle above button
+  margin-top: 30px;
 `;
