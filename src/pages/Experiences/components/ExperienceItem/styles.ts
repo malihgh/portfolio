@@ -64,10 +64,10 @@ export const Title = styled.div`
 export const Description = styled.div`
   color: #6c6c6c;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 100;
-  line-height: 25px;
+  line-height: 26px;
   text-align: justify;
 
   strong {
