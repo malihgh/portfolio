@@ -19,6 +19,10 @@ export const Duration = styled.div`
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
+
+  @media only screen and (max-width: 740px) {
+    text-align: left;
+  }
 `;
 
 export const SectionLine = styled.div`
@@ -27,6 +31,10 @@ export const SectionLine = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0 25px;
+
+  @media only screen and (max-width: 740px) {
+    margin: 0 15px;
+  }
 `;
 
 export const Line = styled.div`
@@ -73,5 +81,9 @@ export const Description = styled.div`
   strong {
     font-weight: 700;
     filter: brightness(70%);
+  }
+
+  @media only screen and (max-width: 740px) {
+    text-align: left;
   }
 `;
