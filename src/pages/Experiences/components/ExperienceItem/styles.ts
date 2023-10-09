@@ -15,7 +15,7 @@ export const Duration = styled.div`
   color: #303535;
   text-align: right;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
