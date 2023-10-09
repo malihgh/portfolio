@@ -10,7 +10,7 @@ export const Title = styled.div<MuiEmotion>`
   font-size: 44px;
   font-style: normal;
   line-height: 48px;
-  padding: 30px 0px 30px 30px;
+  padding: 30px 0px 0px 30px;
 `;
 
 export const SubTitle = styled.div`
@@ -23,7 +23,7 @@ export const SubTitle = styled.div`
   line-height: 28px;
   width: 60%;
   margin: auto;
-  margin-top: 25px;
+  margin-top: 35px;
 
   @media only screen and (max-width: 740px) {
     width: 100%;

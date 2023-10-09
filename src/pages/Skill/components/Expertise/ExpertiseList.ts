@@ -1,4 +1,10 @@
-export const ExpertiseList = [
+type Expertise = {
+  id: number;
+  name: string;
+  items: string[];
+};
+
+export const ExpertiseList: Expertise[] = [
   {
     id: 0,
     name: "languages",
