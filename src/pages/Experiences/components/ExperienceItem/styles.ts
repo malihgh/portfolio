@@ -15,7 +15,7 @@ export const Duration = styled.div`
   color: #303535;
   text-align: right;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -30,7 +30,7 @@ export const SectionLine = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 25px;
+  margin: 0 15px;
 
   @media only screen and (max-width: 740px) {
     margin: 0 15px;
@@ -56,13 +56,13 @@ export const Circle = styled.div<CircleColorType>`
 export const DescriptionContainer = styled.div`
   flex: 3;
   margin-top: -5px; //for aligning with the circle
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 `;
 
 export const Title = styled.div`
   color: #303535;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
@@ -72,7 +72,7 @@ export const Title = styled.div`
 export const Description = styled.div`
   color: #6c6c6c;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 100;
   line-height: 26px;

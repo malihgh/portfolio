@@ -45,9 +45,8 @@ export const ExperienceList: ExperienceItemType[] = [
     description: (
       <>
         I was working with a company to create <strong>AutoTik </strong> app
-        from scratch, using
-        <strong>React Native</strong>. The app aims to help customers to get
-        motor vehicle services and products. The app uses{" "}
+        from scratch, using <strong>React Native</strong>. The app aims to help
+        customers to get motor vehicle services and products. The app uses{" "}
         <strong>REST API</strong> for fetching data and store it with{" "}
         <strong>Redux</strong> for state management.
       </>

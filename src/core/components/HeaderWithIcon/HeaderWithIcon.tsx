@@ -13,10 +13,12 @@ const HeaderWithIcon: FC<Props> = (props) => {
 
   return (
     <Styled.HeaderContainer>
-      <Styled.Title style={titleStyle}>
-        {title}
-        <Styled.Shape src={shape} />
-      </Styled.Title>
+      <Styled.TitleContainer>
+        <Styled.Title style={titleStyle}>
+          {title}
+          <Styled.Shape src={shape} />
+        </Styled.Title>
+      </Styled.TitleContainer>
       {subTitle && (
         <Styled.SubTitle style={subTitleStyle}>{subTitle}</Styled.SubTitle>
       )}
