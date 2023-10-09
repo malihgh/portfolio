@@ -13,7 +13,6 @@ export const FilledButton = styled(Button)<MuiEmotion>`
   font-family: "Poppins", sans-serif;
   background-color: ${({ theme }) => theme.palette.primary.main};
   color: ${({ theme }) => theme.palette.text.secondary};
-  margin-left: 55px;
 
   :hover {
     background-color: ${({ theme }) => theme.palette.primary.main};

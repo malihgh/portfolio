@@ -17,7 +17,7 @@ const Header = () => {
           <Styled.PageName active={page.id === 0}>{page.name}</Styled.PageName>
         </Styled.Pages>
       ))}
-      <Styled.CV>Download CV</Styled.CV>
+      <Styled.CVButton title="Download CV" />
     </Styled.HeaderContainer>
   );
 };

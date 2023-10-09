@@ -1,5 +1,5 @@
-import { KeyExpertiseList } from "./KeyExpertiseList";
 import * as Styled from "./styles";
+import { KeyExpertiseList } from "./KeyExpertiseList";
 import arrow from "assets/images/arrow-right.png";
 
 const KeyExpertise = () => {

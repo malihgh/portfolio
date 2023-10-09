@@ -7,7 +7,8 @@ export const SkillContainer = styled.div`
   position: relative;
 
   @media only screen and (max-width: 740px) {
-    padding: 0px 55px;
+    padding: 30px 55px;
+    height: auto;
   }
 `;
 
@@ -16,10 +17,12 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 50px;
   margin-top: 50px;
 
   @media only screen and (max-width: 740px) {
     flex-direction: column;
+    gap: 20px;
   }
 `;
 
