@@ -11,6 +11,9 @@ const Skill = () => {
         title="My Skills"
         subTitle="Here you will find more information, what I do, and my current skills
         mostly in terms of programming and technology"
+        titleStyle={{
+          margin: "auto",
+        }}
       />
       <Styled.Star src={star} />
 
