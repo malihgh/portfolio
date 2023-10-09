@@ -3,6 +3,11 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const HeaderContainer = styled.div``;
 
+export const TitleContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
 export const Title = styled.div<MuiEmotion>`
   color: ${({ theme }) => theme.palette.text.primary};
   text-align: center;
@@ -11,6 +16,9 @@ export const Title = styled.div<MuiEmotion>`
   font-style: normal;
   line-height: 48px;
   padding: 30px 0px 0px 30px;
+  position: relative;
+  display: inline-block;
+  align-self: center;
 `;
 
 export const SubTitle = styled.div`
@@ -32,5 +40,8 @@ export const SubTitle = styled.div`
 
 export const Shape = styled.img`
   width: 50px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  position: absolute;
+  top: -5px;
+  right: -33px;
 `;
