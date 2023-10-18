@@ -1,5 +1,5 @@
 import * as Styled from "./styles";
-import { ExpertiseList } from "./ExpertiseList";
+import { ExpertiseData } from "../../data/ExpertiseData";
 
 const Expertise = () => {
   return (
@@ -8,7 +8,7 @@ const Expertise = () => {
         <Styled.Title>Expertise</Styled.Title>
       </Styled.TitleContainer>
 
-      {ExpertiseList.map((category) => (
+      {ExpertiseData.map((category) => (
         <Styled.Category key={category.id}>
           {category.items.map((item, index) => (
             <Styled.Expertise key={index}>
