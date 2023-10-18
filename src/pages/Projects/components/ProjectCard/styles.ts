@@ -7,11 +7,12 @@ export const Card = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0px 10px;
 `;
 
 export const ImageFrame = styled.div`
   background-color: #edf0ee;
-  width: 90%;
+  width: 100%;
   height: 225px;
   border-radius: 15px;
   overflow: hidden;
@@ -33,7 +34,7 @@ export const Image = styled.img`
 `;
 
 export const InfoContainer = styled.div`
-  width: 90%;
+  width: 100%;
   height: 60px; //to not change the size of the card
 `;
 
