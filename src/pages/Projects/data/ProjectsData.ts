@@ -15,7 +15,7 @@ export const projectsData: ProjectsItemType[] = [
   {
     id: 1,
     title: "Swissforages",
-    description: "Platform to acquire bore- hole data by Swisstopo",
+    description: "Platform to acquire borehole data by Swisstopo",
     image: "src/assets/images/profile.png",
   },
   {
@@ -38,6 +38,18 @@ export const projectsData: ProjectsItemType[] = [
   },
   {
     id: 5,
+    title: "AutoTik",
+    description: "For keep track of your car maintenance",
+    image: "src/assets/images/profile.png",
+  },
+  {
+    id: 6,
+    title: " go! Fleet Driver and Cockpit",
+    description: "For the drivers of the go! fleet",
+    image: "src/assets/images/profile.png",
+  },
+  {
+    id: 7,
     title: "AutoTik",
     description: "For keep track of your car maintenance",
     image: "src/assets/images/profile.png",
