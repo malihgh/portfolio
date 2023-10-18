@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Card = styled.div`
-  margin-top: 25px;
+  margin-top: 10px;
   flex: 1;
   display: flex;
   align-items: center;
@@ -34,6 +34,7 @@ export const Image = styled.img`
 
 export const InfoContainer = styled.div`
   width: 90%;
+  height: 60px; //to not change the size of the card
 `;
 
 export const Title = styled.div`
@@ -53,5 +54,4 @@ export const Description = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: capitalize;
 `;
