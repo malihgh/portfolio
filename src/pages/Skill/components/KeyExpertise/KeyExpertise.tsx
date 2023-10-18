@@ -1,5 +1,5 @@
 import * as Styled from "./styles";
-import { KeyExpertiseList } from "./KeyExpertiseList";
+import { KeyExpertiseData } from "../../data/KeyExpertiseData";
 import arrow from "assets/images/arrow-right.png";
 
 const KeyExpertise = () => {
@@ -9,7 +9,7 @@ const KeyExpertise = () => {
         <Styled.Title>Key Expertise</Styled.Title>
       </Styled.TitleContainer>
 
-      {KeyExpertiseList.map((item) => (
+      {KeyExpertiseData.map((item) => (
         <Styled.KeyExpertise key={item.id}>
           <Styled.Arrow src={arrow} />
           <Styled.Text>{item.title}</Styled.Text>
