@@ -8,11 +8,13 @@ interface Props extends ButtonProps {
 }
 
 const Button: FC<Props> = (props) => {
-  const { title } = props;
+  const { title, color = "primary" } = props;
 
   return (
     <Styled.ButtonContainer>
-      <Styled.FilledButton {...props}>{title}</Styled.FilledButton>
+      <Styled.FilledButton {...props} color={color}>
+        {title}
+      </Styled.FilledButton>
     </Styled.ButtonContainer>
   );
 };
