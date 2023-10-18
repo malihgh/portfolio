@@ -1,22 +1,19 @@
+import { FC } from "react";
 import * as Styled from "./styles";
-import profile from "assets/images/profile.png";
+import { ProjectsItemType } from "pages/Projects/data/ProjectsData";
 
-const ProjectCard = () => {
-  const projectDetails = {
-    title: "Project Title",
-    description: "Project Description",
-    image: profile,
-  };
+const ProjectCard: FC<ProjectsItemType> = (props) => {
+  const { title, description, image } = props;
 
   return (
     <Styled.Card>
       <Styled.ImageFrame>
-        <Styled.Image src={projectDetails.image} />
+        <Styled.Image src={image} alt="images" />
       </Styled.ImageFrame>
 
       <Styled.InfoContainer>
-        <Styled.Title>{projectDetails.title}</Styled.Title>
-        <Styled.Description>{projectDetails.description}</Styled.Description>
+        <Styled.Title>{title}</Styled.Title>
+        <Styled.Description>{description}</Styled.Description>
 
         {/* Add a details page and link it to this button--> arrow-up.svg icon */}
       </Styled.InfoContainer>
