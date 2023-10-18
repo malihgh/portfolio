@@ -1,6 +1,7 @@
+import * as Styled from "./styles";
 import HeaderWithIcon from "core/components/HeaderWithIcon";
 import excited from "assets/images/excited-shape-black.png";
-import * as Styled from "./styles";
+import ProjectList from "./components/ProjectList";
 
 const Projects = () => {
   return (
@@ -18,6 +19,8 @@ const Projects = () => {
         />
         <Styled.Shape src={excited} />
       </Styled.TitleContainer>
+
+      <ProjectList />
     </Styled.ProjectsContainer>
   );
 };
