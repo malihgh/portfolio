@@ -1,11 +1,11 @@
 import * as Styled from "./styles";
 import ExperienceItem from "../ExperienceItem";
-import { ExperienceList } from "./ExperienceList";
+import { ExperienceData } from "../../data/ExperienceData";
 
 const ExperienceBox = () => {
   return (
     <Styled.Container>
-      {ExperienceList.map((item) => (
+      {ExperienceData.map((item) => (
         <ExperienceItem data={item} key={item.id} />
       ))}
     </Styled.Container>

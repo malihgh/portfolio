@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
 import { FC } from "react";
-import { ExperienceItemType } from "../ExperienceBox/ExperienceList";
+import { ExperienceItemType } from "../../data/ExperienceData";
 
 type ExperienceItemProps = {
   data: ExperienceItemType;
