@@ -4,7 +4,7 @@ import { ButtonProps } from "@mui/material";
 
 interface Props extends ButtonProps {
   title: string;
-  color?: "primary" | "secondary";
+  color?: "primary" | "secondary" | "inherit";
 }
 
 const Button: FC<Props> = (props) => {
