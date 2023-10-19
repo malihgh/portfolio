@@ -2,7 +2,7 @@ import * as Styled from "./styles";
 import Linkedin from "assets/images/in.png";
 import github from "assets/images/github.png";
 import gitlab from "assets/images/gitlab.png";
-import { ButtonBase } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const buttons = [
   {
@@ -25,9 +25,14 @@ const SocialLinks = () => {
   return (
     <>
       {buttons.map((button) => (
-        <ButtonBase disableRipple key={button.id} href={button.link}>
+        <Link
+          key={button.id}
+          target="_blank"
+          to={button.link}
+          style={{ textDecoration: "none" }}
+        >
           <Styled.Icon src={button.icon} />
-        </ButtonBase>
+        </Link>
       ))}
     </>
   );
