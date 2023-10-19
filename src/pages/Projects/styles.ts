@@ -3,7 +3,6 @@ import ScreenContainer from "core/components/ScreenContainer";
 
 export const ProjectsContainer = styled(ScreenContainer)`
   background-color: #fffcf3;
-  height: auto;
 `;
 
 export const TitleContainer = styled.div`
