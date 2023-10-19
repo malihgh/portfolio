@@ -22,4 +22,5 @@ export const Pointer = styled.img`
 
 export const CV = styled(CVButton)`
   margin-top: 30px;
+  width: 150px;
 `;
