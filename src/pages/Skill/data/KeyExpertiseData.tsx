@@ -1,11 +1,11 @@
 import React from "react";
 
-type KeyExpertiseListType = {
+type KeyExpertiseDataType = {
   id: number;
   title: React.JSX.Element;
 };
 
-export const KeyExpertiseList: KeyExpertiseListType[] = [
+export const KeyExpertiseData: KeyExpertiseDataType[] = [
   {
     id: 0,
     title: (

@@ -4,7 +4,7 @@ type Expertise = {
   items: string[];
 };
 
-export const ExpertiseList: Expertise[] = [
+export const ExpertiseData: Expertise[] = [
   {
     id: 0,
     name: "languages",

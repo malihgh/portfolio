@@ -5,7 +5,7 @@ export type ExperienceItemType = {
   description: React.JSX.Element;
 };
 
-export const ExperienceList: ExperienceItemType[] = [
+export const ExperienceData: ExperienceItemType[] = [
   {
     id: 0,
     date: "Dec 2021 - Now",
