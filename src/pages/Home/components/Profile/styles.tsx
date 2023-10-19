@@ -5,7 +5,7 @@ const profileWidth = 280;
 const profileHeight = 400;
 
 export const ProfileContainer = styled.div`
-  flex: 3;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;

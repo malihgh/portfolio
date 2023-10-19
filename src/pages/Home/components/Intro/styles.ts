@@ -3,7 +3,6 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const IntroContainer = styled.div`
   position: relative;
-  margin-top: 110px;
   flex: 5;
 
   @media only screen and (max-width: 740px) {
@@ -26,7 +25,7 @@ export const Description = styled.div<MuiEmotion>`
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  margin-top: 30px;
+  margin-top: 40px;
 `;
 
 export const Shape = styled.img`
@@ -37,6 +36,11 @@ export const Shape = styled.img`
 
   @media only screen and (max-width: 740px) {
     top: -40px;
+    right: 0px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    top: -30px;
     right: 0px;
   }
 `;

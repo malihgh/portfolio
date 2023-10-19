@@ -9,9 +9,13 @@ export const Container = styled(ScreenContainer)<MuiEmotion>`
   background-image: url(${background});
   background-size: 100% 100%;
   background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Row = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: row;
   align-items: center;

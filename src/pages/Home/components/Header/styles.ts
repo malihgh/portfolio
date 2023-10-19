@@ -12,7 +12,6 @@ export const HeaderContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
 `;
 
 export const Name = styled.div<MuiEmotion>`
