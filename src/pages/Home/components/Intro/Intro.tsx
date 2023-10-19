@@ -2,6 +2,7 @@ import * as Styled from "./styles";
 import pointer from "assets/images/pinter-short-green.png";
 import excited from "assets/images/excited-shape.png";
 import Button from "core/components/Button";
+import { HashLink } from "react-router-hash-link";
 
 const Intro = () => {
   return (
@@ -17,7 +18,9 @@ const Intro = () => {
         such as React JS and Vue JS.
       </Styled.Description>
 
-      <Button title="Get Started" style={{ marginTop: 55 }} />
+      <HashLink to="/#skill" smooth style={{ textDecoration: "none" }}>
+        <Button title="Get Started" style={{ marginTop: 55 }} />
+      </HashLink>
     </Styled.IntroContainer>
   );
 };
