@@ -4,6 +4,7 @@ import About from "pages/About";
 import Experiences from "pages/Experiences";
 import Home from "pages/Home";
 import Skill from "pages/Skill";
+import Projects from "pages/Projects";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Skill />
         <About />
         <Experiences />
+        <Projects />
       </Styled.Container>
     </StyledThemeProvider>
   );
