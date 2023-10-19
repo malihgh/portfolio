@@ -13,7 +13,7 @@ export const IntroContainer = styled.div`
 export const Title = styled.div<MuiEmotion>`
   color: ${({ theme }) => theme.palette.text.primary};
   font-family: "Poppins-Bold", sans-serif;
-  font-size: 50px;
+  font-size: 49.5px;
   font-style: normal;
   line-height: 64px;
 `;
