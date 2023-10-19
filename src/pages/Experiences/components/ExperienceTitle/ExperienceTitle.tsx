@@ -20,7 +20,7 @@ const ExperienceTitle = () => {
             width: "100%",
           }}
         />
-        <Styled.CVButton title="Download CV" />
+        <Styled.CV />
       </Styled.HeaderContainer>
 
       <Styled.Pointer src={Pointer} />
