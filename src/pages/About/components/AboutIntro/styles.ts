@@ -42,8 +42,8 @@ export const Line = styled.div`
   color: #8f8f8f;
   margin-top: -3px;
 
-  //600px bsc it should be the same in ipad size
-  @media only screen and (max-width: 600px) {
+  //to not add scrollbar in chrome
+  @media only screen and (max-width: 830px) {
     display: none;
   }
 `;
@@ -57,6 +57,7 @@ export const Text = styled.div`
   line-height: normal;
   margin-top: 4px;
 
+  //600px bsc it should be the same in ipad size
   @media only screen and (max-width: 600px) {
     display: none;
   }
