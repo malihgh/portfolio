@@ -3,7 +3,6 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const AboutIntroContainer = styled.div`
   position: relative;
-  margin-top: 30px;
   flex: 5;
   padding-left: 50px;
 

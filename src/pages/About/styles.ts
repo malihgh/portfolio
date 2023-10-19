@@ -7,6 +7,10 @@ export const AboutContainer = styled(ScreenContainer)<MuiEmotion>`
   background-image: url(${background});
   background-size: 100% 100%;
   background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 export const Row = styled.div`
@@ -14,5 +18,5 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 20px;
 `;
