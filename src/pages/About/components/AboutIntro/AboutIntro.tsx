@@ -35,7 +35,7 @@ const AboutIntro = () => {
       </Styled.Description>
 
       <Styled.Row>
-        <Button title="Hire Me" />
+        <Button title="Hire Me" href="mailto:malih.ghasemian@gmail.com" />
 
         <Styled.IconRow>
           <Styled.Text>Follow Me</Styled.Text>

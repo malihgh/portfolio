@@ -1,4 +1,3 @@
-import { MouseEvent } from "react";
 import * as Styled from "./styles";
 import Linkedin from "assets/images/in.png";
 import github from "assets/images/github.png";
@@ -23,19 +22,11 @@ const buttons = [
   },
 ];
 const SocialLinks = () => {
-  const openURL = (e: MouseEvent, url: string) => {
-    window.open(url, "_blank", "noreferrer");
-    e.preventDefault();
-  };
-
   return (
     <>
       {buttons.map((button) => (
-        <ButtonBase disableRipple key={button.id}>
-          <Styled.Icon
-            src={button.icon}
-            onClick={(e) => openURL(e, button.link)}
-          />
+        <ButtonBase disableRipple key={button.id} href={button.link}>
+          <Styled.Icon src={button.icon} />
         </ButtonBase>
       ))}
     </>
