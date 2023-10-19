@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import Button from "core/components/Button";
+import CVButton from "core/components/CVButton";
 
 import { MuiEmotion } from "core/types/MuiEmotion";
 
@@ -51,7 +51,7 @@ export const PageName = styled.div<PageNameType>`
   }
 `;
 
-export const CVButton = styled(Button)`
+export const CV = styled(CVButton)`
   margin-left: 55px;
 
   @media only screen and (max-width: 740px) {

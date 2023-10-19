@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import Button from "core/components/Button";
+import CVButton from "core/components/CVButton";
 
 export const Container = styled.div`
   flex: 1;
@@ -20,6 +20,7 @@ export const Pointer = styled.img`
   padding-left: 60px;
 `;
 
-export const CVButton = styled(Button)`
+export const CV = styled(CVButton)`
   margin-top: 30px;
+  width: 150px;
 `;
