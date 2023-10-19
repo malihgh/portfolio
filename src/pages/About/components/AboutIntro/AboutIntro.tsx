@@ -2,9 +2,7 @@ import HeaderWithIcon from "core/components/HeaderWithIcon/HeaderWithIcon";
 import * as Styled from "./styles";
 import star from "assets/images/star-outlined.png";
 import Button from "core/components/Button";
-import Linkedin from "assets/images/in.png";
-import github from "assets/images/github.png";
-import gitlab from "assets/images/gitlab.png";
+import SocialLinks from "../SocialLinks";
 
 const AboutIntro = () => {
   return (
@@ -43,9 +41,7 @@ const AboutIntro = () => {
           <Styled.Text>Follow Me</Styled.Text>
           <Styled.Line>_________</Styled.Line>
 
-          <Styled.Icon src={Linkedin} />
-          <Styled.Icon src={github} />
-          <Styled.Icon src={gitlab} />
+          <SocialLinks />
         </Styled.IconRow>
       </Styled.Row>
     </Styled.AboutIntroContainer>

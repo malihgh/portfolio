@@ -70,11 +70,6 @@ export const IconRow = styled.div`
   gap: 10px;
 `;
 
-export const Icon = styled.img`
-  width: 22px;
-  height: 22px;
-`;
-
 export const Star = styled.img`
   width: 50px;
   position: absolute;
