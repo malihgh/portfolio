@@ -13,7 +13,7 @@ const AboutIntro = () => {
 
       <HeaderWithIcon
         title="About Me"
-        titleStyle={{ textAlign: "left", paddingLeft: 0, paddingBottom: 20 }}
+        titleStyle={{ textAlign: "left", paddingLeft: 0, paddingBottom: 30 }}
       />
 
       <Styled.Description>
