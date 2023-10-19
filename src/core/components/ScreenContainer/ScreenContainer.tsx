@@ -7,8 +7,8 @@ type ScreenContainerProps = {
 
 const ScreenContainer: FC<ScreenContainerProps> = ({ children, ...props }) => {
   return (
-    <Styled.Container {...props}>
-      <Styled.Padding>{children}</Styled.Padding>
+    <Styled.Container>
+      <Styled.Padding {...props}>{children}</Styled.Padding>
     </Styled.Container>
   );
 };
