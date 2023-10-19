@@ -15,10 +15,18 @@ export const List = styled.div`
   flex-direction: row;
   align-items: center;
   flex: 1;
+
+  @media only screen and (max-width: 740px) {
+    flex-direction: column;
+  }
 `;
 
 export const CardContainer = styled.div<CardContainerProps>`
   width: ${({ rows }) => 100 / rows}%;
+
+  @media only screen and (max-width: 740px) {
+    width: 100%;
+  }
 `;
 
 export const MoreButton = styled(Button)`

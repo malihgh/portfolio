@@ -25,12 +25,12 @@ const ProjectList = () => {
 
   return (
     <Styled.Container>
-      {chunkedProjectsData.map((groups) => (
-        <Styled.List>
+      {chunkedProjectsData.map((groups, index) => (
+        <Styled.List key={index}>
           {groups.map(
             (project) =>
               project.id < showNumber && (
-                <Styled.CardContainer rows={cardPerRow}>
+                <Styled.CardContainer rows={cardPerRow} key={project.id}>
                   <ProjectCard {...project} />
                 </Styled.CardContainer>
               )
@@ -39,7 +39,7 @@ const ProjectList = () => {
       ))}
 
       <Styled.MoreButton
-        title="View More"
+        title={showAll ? "View Less" : "View More"}
         color="inherit"
         onClick={() => setShowAll(!showAll)}
       />
