@@ -1,4 +1,5 @@
 import Root from "app/Root";
+import NotFound from "app/Root/components/NotFound";
 import { StrictMode } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -7,7 +8,7 @@ const Router = () => {
     {
       path: "/",
       element: <Root />,
-      errorElement: <div>404</div>,
+      errorElement: <NotFound />,
     },
   ]);
   return (
