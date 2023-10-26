@@ -1,7 +1,7 @@
 import * as Styled from "./styles";
 import profile from "assets/images/profile.png";
 import starTop from "assets/images/circle-big.png";
-import starBottom from "assets/images/start-small.png";
+import starBottom from "assets/images/star-small.png";
 
 const AboutPhoto = () => {
   return (
