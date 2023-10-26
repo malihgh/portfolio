@@ -51,3 +51,5 @@ export const BackButton = styled(Button)<MuiEmotion>`
   width: 180px;
   margin-top: 40px;
 `;
+
+export const App = styled.div``;
