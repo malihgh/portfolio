@@ -1,4 +1,4 @@
 import styled from "@emotion/styled";
-import { MuiEmotion } from "core/types/MuiEmotion";
+import ScreenContainer from "core/components/ScreenContainer";
 
-export const Container = styled.div<MuiEmotion>``;
+export const Container = styled(ScreenContainer)``;
