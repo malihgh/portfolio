@@ -16,6 +16,11 @@ export const Title = styled.div<MuiEmotion>`
   font-size: 49.5px;
   font-style: normal;
   line-height: 64px;
+
+  @media only screen and (max-width: 740px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
 `;
 
 export const Description = styled.div<MuiEmotion>`
