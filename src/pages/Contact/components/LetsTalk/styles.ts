@@ -16,7 +16,7 @@ export const Container = styled.div<MuiEmotion>`
 
   margin: 60px 0px;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     flex-direction: column;
     height: 90%;
     margin: 30px 0px;
@@ -29,7 +29,7 @@ export const TextContainer = styled.div`
   padding: 25px 40px;
   flex: 2;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     padding: 25px 30px;
   }
 `;
@@ -42,6 +42,10 @@ export const Title = styled.div`
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 10px;
+
+  @media only screen and (max-width: 740px) {
+    font-size: 33px;
+  }
 `;
 
 export const Shape = styled.img`
@@ -50,7 +54,7 @@ export const Shape = styled.img`
   margin-left: 5px;
   margin-bottom: 10px;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     margin-top: -10px;
   }
 `;

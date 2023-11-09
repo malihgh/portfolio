@@ -26,7 +26,7 @@ export const Number = styled.div<MuiEmotion>`
   text-shadow: 7px 5px 2px rgba(0, 0, 0, 0.5);
   word-spacing: 0px;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     font-size: 130px;
   }
 `;

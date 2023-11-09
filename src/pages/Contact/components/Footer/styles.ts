@@ -11,7 +11,7 @@ export const PageContainer = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     display: none;
   }
 `;
@@ -21,7 +21,7 @@ export const InfoContainer = styled.div`
   display: flex;
   justify-content: flex-end;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     flex-direction: column;
   }
 `;
@@ -31,7 +31,7 @@ export const Divider = styled.div`
   color: #6c6c6c;
   margin-top: 3px;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     display: none;
   }
 `;
@@ -55,7 +55,7 @@ export const RowContainer = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 740px) {
+  @media only screen and (max-width: 740px) {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 20px;
