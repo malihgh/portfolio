@@ -1,7 +1,7 @@
 import * as Styled from "./styles";
 import KeyExpertise from "pages/Skill/components/KeyExpertise";
 import Expertise from "pages/Skill/components/Expertise";
-import star from "assets/images/star-outlined.png";
+import star from "assets/images/star-outlined.svg";
 import HeaderWithIcon from "core/components/HeaderWithIcon";
 
 const Skill = () => {

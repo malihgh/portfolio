@@ -1,6 +1,6 @@
 import { FC } from "react";
 import * as Styled from "./styles";
-import shape from "assets/images/news-shapes.png";
+import shape from "assets/images/news-shapes.svg";
 
 type Props = {
   title: string;

@@ -1,6 +1,6 @@
 import HeaderWithIcon from "core/components/HeaderWithIcon/HeaderWithIcon";
 import * as Styled from "./styles";
-import star from "assets/images/star-outlined.png";
+import star from "assets/images/star-outlined.svg";
 import Button from "core/components/Button";
 import SocialLinks from "../SocialLinks";
 

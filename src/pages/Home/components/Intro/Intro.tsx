@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
-import pointer from "assets/images/pinter-short-green.png";
-import excited from "assets/images/excited-shape.png";
+import pointer from "assets/images/pinter-short-green.svg";
+import excited from "assets/images/excited-shape.svg";
 import Button from "core/components/Button";
 import { HashLink } from "react-router-hash-link";
 
