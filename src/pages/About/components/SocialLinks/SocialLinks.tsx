@@ -23,18 +23,18 @@ const buttons = [
 ];
 const SocialLinks = () => {
   return (
-    <>
+    <div>
       {buttons.map((button) => (
         <Link
           key={button.id}
           target="_blank"
           to={button.link}
-          style={{ textDecoration: "none" }}
+          style={{ textDecoration: "none", marginRight: 10 }}
         >
           <Styled.Icon src={button.icon} />
         </Link>
       ))}
-    </>
+    </div>
   );
 };
 
