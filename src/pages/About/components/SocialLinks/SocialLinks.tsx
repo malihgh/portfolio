@@ -2,6 +2,7 @@ import * as Styled from "./styles";
 import Linkedin from "assets/images/in.png";
 import github from "assets/images/github.png";
 import gitlab from "assets/images/gitlab.png";
+import telegram from "assets/images/telegram.svg";
 import { Link } from "react-router-dom";
 
 const buttons = [
@@ -19,6 +20,11 @@ const buttons = [
     id: 2,
     icon: gitlab,
     link: "https://gitlab.com/malihgh",
+  },
+  {
+    id: 3,
+    icon: telegram,
+    link: "https://t.me/MaliheGhasemian",
   },
 ];
 const SocialLinks = () => {
