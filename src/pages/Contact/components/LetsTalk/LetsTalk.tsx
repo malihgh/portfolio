@@ -23,7 +23,7 @@ const LetsTalk = () => {
 
       <Styled.ButtonContainer>
         <Link
-          to="https://t.me/MaliheGhasemian"
+          to="mailto:malih.ghasemian@gmail.com"
           target="_blank"
           style={{ textDecoration: "none" }}
         >
