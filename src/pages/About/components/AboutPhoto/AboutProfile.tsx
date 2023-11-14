@@ -1,7 +1,6 @@
 import * as Styled from "./styles";
-import profile from "assets/images/profile.png";
+import profile from "assets/images/programmer-girl.svg";
 import starTop from "assets/images/circle-big.svg";
-import starBottom from "assets/images/star-small.svg";
 
 const AboutPhoto = () => {
   return (
@@ -12,7 +11,6 @@ const AboutPhoto = () => {
           <strong>4+</strong> Years
           <br /> Experience
         </Styled.StartTopText>
-        <Styled.StarBottom src={starBottom} />
 
         <Styled.BorderFrame />
         <Styled.Profile src={profile} />

@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
-const profileWidth = 280;
-const profileHeight = 400;
+const profileWidth = 300;
+const profileHeight = 430;
 
 export const AboutPhotoContainer = styled.div`
   flex: 3;
@@ -39,10 +39,10 @@ export const BorderFrame = styled.div<MuiEmotion>`
 `;
 
 export const Profile = styled.img`
-  width: ${profileWidth + "px"};
-  height: ${profileHeight + "px"};
+  width: ${profileWidth + 50 + "px"};
+  height: ${profileHeight + 40 + "px"};
   flex-shrink: 0;
-  border-radius: ${profileWidth + "px"};
+  /* border-radius: ${profileWidth + "px"}; */
   z-index: 1;
 `;
 
@@ -72,12 +72,4 @@ export const StartTopText = styled.div`
     font-size: 16px;
     font-weight: 700;
   }
-`;
-
-export const StarBottom = styled.img`
-  width: 42px;
-  position: absolute;
-  left: -4px;
-  bottom: 44px;
-  z-index: 2;
 `;
