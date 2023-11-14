@@ -3,12 +3,12 @@ import * as Styled from "./styles";
 import { ProjectsItemType } from "pages/Projects/data/ProjectsData";
 
 const ProjectCard: FC<ProjectsItemType> = (props) => {
-  const { title, description, image } = props;
+  const { title, description, image, isApp } = props;
 
   return (
     <Styled.Card>
       <Styled.ImageFrame>
-        <Styled.Image src={image} alt="images" />
+        <Styled.Image src={image} alt="images" isApp={isApp} />
       </Styled.ImageFrame>
 
       <Styled.InfoContainer>

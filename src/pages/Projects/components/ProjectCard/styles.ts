@@ -20,17 +20,9 @@ export const ImageFrame = styled.div`
   display: flex;
 `;
 
-// export const ImageBackground = styled.div`
-//   width: 100%;
-//   background-image: url(${profile});
-//   background-size: auto 100%;
-//   background-repeat: no-repeat;
-// `; //for show image with right size
-
-export const Image = styled.img`
+export const Image = styled.img<{ isApp: boolean }>`
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  object-fit: ${({ isApp }) => isApp && "contain"};
 `;
 
 export const InfoContainer = styled.div`
