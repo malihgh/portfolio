@@ -1,3 +1,5 @@
+import CustomHref from "core/components/CustomHref";
+
 export type ExperienceItemType = {
   id: number;
   date: string;
@@ -18,9 +20,9 @@ export const ExperienceData: ExperienceItemType[] = [
         <strong>Context</strong> for state management, and{" "}
         <strong>Styled Component</strong> and <strong>Material UI</strong> as
         the styling library for creating best UI for our customers. I develop
-        and maintain several projects, such as <strong>Swissforages</strong>{" "}
-        website (a platform to acquire borehole data by{" "}
-        <strong>Swisstopo</strong> company).
+        and maintain several projects, such as <strong>Swissforages</strong> (a
+        platform to acquire borehole data by <strong>Swisstopo</strong>{" "}
+        company).
       </>
     ),
   },
@@ -30,12 +32,21 @@ export const ExperienceData: ExperienceItemType[] = [
     title: "Front End and React Native Developer",
     description: (
       <>
-        As an intern in <strong>Baker Street</strong>, I was in charge of
-        maintaining and developing <strong>go! Fleet</strong> Driver app and{" "}
-        <strong>Cockpit</strong> website. My responsibilities included adding
-        new features and screens. We used <strong>Jest</strong> for testing our
-        library and custom hooks, and implemented great cache system with{" "}
-        <strong>React Query</strong>.
+        As an intern in{" "}
+        <CustomHref to="https://www.baker-street.ch/">
+          <strong>Baker Street</strong>
+        </CustomHref>
+        , I was in charge of maintaining and developing{" "}
+        <CustomHref to="https://play.google.com/store/apps/details?id=com.gofleet.driver&hl=en&gl=Us">
+          <strong>go! Fleet</strong>
+        </CustomHref>{" "}
+        Driver app and{" "}
+        <CustomHref to="https://go-fleet.ch/en/product/go-cockpit/">
+          <strong>Cockpit</strong>
+        </CustomHref>{" "}
+        website. My responsibilities included adding new features and screens.
+        We used <strong>Jest</strong> for testing our library and custom hooks,
+        and implemented great cache system with <strong>React Query</strong>.
       </>
     ),
   },
