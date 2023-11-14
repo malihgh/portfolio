@@ -9,24 +9,25 @@ export const ExperienceData: ExperienceItemType[] = [
   {
     id: 0,
     date: "Dec 2021 - Now",
-    title: "Front-End Developer at Geomatic group",
+    title: "Front End Developer at SUPSI",
     description: (
       <>
-        I am working at Geomatic group at SUPSI as a front-end developer,
+        I am working at Geomatic group at SUPSI as a Front End developer,
         working with a variety of technologies such as <strong>React JS</strong>{" "}
-        and Vue JS. We are using <strong>Redux</strong> and Context for state
-        management, and <strong>Styled Component</strong> and{" "}
-        <strong>Material UI</strong> as styling library for creating best UI for
-        our customer. I develop and maintain a few projects, such as{" "}
-        <strong>Swissforages</strong> open source project, that’s a platform to
-        acquire borehole data by <strong>Swisstopo</strong>.
+        and <strong>Vue JS</strong>. We are using <strong>Redux</strong> and{" "}
+        <strong>Context</strong> for state management, and{" "}
+        <strong>Styled Component</strong> and <strong>Material UI</strong> as
+        the styling library for creating best UI for our customers. I develop
+        and maintain several projects, such as <strong>Swissforages</strong>{" "}
+        website (a platform to acquire borehole data by{" "}
+        <strong>Swisstopo</strong> company).
       </>
     ),
   },
   {
     id: 1,
     date: "Feb - May 2021",
-    title: "Front-End and React Native Developer",
+    title: "Front End and React Native Developer",
     description: (
       <>
         As an intern in <strong>Baker Street</strong>, I was in charge of
@@ -44,11 +45,12 @@ export const ExperienceData: ExperienceItemType[] = [
     title: "React Native Developer",
     description: (
       <>
-        I was working with a company to create <strong>AutoTik </strong> app
-        from scratch, using <strong>React Native</strong>. The app aims to help
-        customers to get motor vehicle services and products. The app uses{" "}
-        <strong>REST API</strong> for fetching data and store it with{" "}
-        <strong>Redux</strong> for state management.
+        I was working with a private company to create <strong>AutoTik </strong>{" "}
+        app, using <strong>React Native</strong> and <strong>Sketch</strong>{" "}
+        from scratch. The app aims to help customers to get motor vehicle
+        services and products. The app uses <strong>REST API</strong> for
+        fetching data and store it with <strong>Redux</strong> for state
+        management.
       </>
     ),
   },

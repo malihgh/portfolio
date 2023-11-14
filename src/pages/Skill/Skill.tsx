@@ -9,8 +9,7 @@ const Skill = () => {
     <Styled.SkillContainer>
       <HeaderWithIcon
         title="My Skills"
-        subTitle="Here you will find more information, what I do, and my current skills
-        mostly in terms of programming and technology"
+        subTitle="Here you can find some of skill and technologies that I'm working with everyday."
         titleStyle={{
           margin: "auto",
         }}
