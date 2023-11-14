@@ -2,7 +2,7 @@ import * as Styled from "./styles";
 import newsWhite from "assets/images/news-shapes-white.svg";
 import starWhite from "assets/images/star-white.svg";
 import Button from "core/components/Button";
-import { Link } from "react-router-dom";
+import CustomHref from "core/components/CustomHref";
 
 const LetsTalk = () => {
   return (
@@ -22,13 +22,9 @@ const LetsTalk = () => {
       <Styled.Star src={starWhite} />
 
       <Styled.ButtonContainer>
-        <Link
-          to="mailto:malih.ghasemian@gmail.com"
-          target="_blank"
-          style={{ textDecoration: "none" }}
-        >
+        <CustomHref to="mailto:malih.ghasemian@gmail.com">
           <Button title="Let's Talk" color="secondary" />
-        </Link>
+        </CustomHref>
       </Styled.ButtonContainer>
     </Styled.Container>
   );

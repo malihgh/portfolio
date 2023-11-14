@@ -2,7 +2,7 @@ import * as Styled from "./styles";
 import Linkedin from "assets/images/in.svg";
 import github from "assets/images/github.svg";
 import gitlab from "assets/images/gitlab.svg";
-import { Link } from "react-router-dom";
+import CustomHref from "core/components/CustomHref";
 
 const buttons = [
   {
@@ -25,14 +25,13 @@ const SocialLinks = () => {
   return (
     <div>
       {buttons.map((button) => (
-        <Link
+        <CustomHref
           key={button.id}
-          target="_blank"
           to={button.link}
-          style={{ textDecoration: "none", marginRight: 10 }}
+          style={{ marginRight: 10 }}
         >
           <Styled.Icon src={button.icon} />
-        </Link>
+        </CustomHref>
       ))}
     </div>
   );
