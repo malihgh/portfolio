@@ -15,7 +15,7 @@ export const Title = styled.div<MuiEmotion>`
   font-size: 44px;
   font-style: normal;
   line-height: 48px;
-  padding: 30px 0px 0px 30px;
+  padding-top: 30px;
   position: relative;
   display: inline-block;
   align-self: center;
