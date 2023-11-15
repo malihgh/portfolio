@@ -6,7 +6,7 @@ import { PaletteMode } from "@mui/material";
 import {
   ColorModeContext,
   ColorModeContextType,
-} from "core/provider/ThemeProvider/ThemeProvider";
+} from "core/provider/ThemeProvider/context/colorModeContext";
 
 const Header = () => {
   const { setMode } = useContext(ColorModeContext) as ColorModeContextType;
