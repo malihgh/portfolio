@@ -1,8 +1,10 @@
 import styled from "@emotion/styled";
+import { MuiEmotion } from "core/types/MuiEmotion";
 
-export const Container = styled.div`
+export const Container = styled.div<MuiEmotion>`
   height: 100vh;
   display: flex;
+  background-color: ${({ theme }) => theme.palette.background.default};
 
   @media only screen and (max-width: 740px) {
     height: auto;

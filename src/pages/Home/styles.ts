@@ -6,7 +6,10 @@ import ScreenContainer from "core/components/ScreenContainer";
 export const Container = styled(ScreenContainer)<MuiEmotion>`
   font-family: "Poppins", sans-serif;
   background-color: ${({ theme }) => theme.palette.primary.light};
-  background-image: url(${background});
+  background-image: ${({ theme }) =>
+    theme.palette.mode === "light"
+      ? `url(${background})`
+      : theme.palette.background.default};
   background-size: 100% 100%;
   background-repeat: no-repeat;
 

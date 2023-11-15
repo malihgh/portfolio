@@ -41,8 +41,8 @@ export const Title = styled.div<MuiEmotion>`
   text-transform: capitalize;
 `;
 
-export const Description = styled.div`
-  color: #646060;
+export const Description = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   font-family: "Poppins", sans-serif;
   font-size: 11px;
   font-style: normal;

@@ -26,9 +26,9 @@ export const InfoContainer = styled.div`
   }
 `;
 
-export const Divider = styled.div`
+export const Divider = styled.div<MuiEmotion>`
   margin: 0px 5px;
-  color: #6c6c6c;
+  color: ${({ theme }) => theme.palette.info.main};
   margin-top: 3px;
 
   @media only screen and (max-width: 740px) {
@@ -37,8 +37,7 @@ export const Divider = styled.div`
 `;
 
 export const Text = styled.div<MuiEmotion>`
-  /* color: ${({ theme }) => theme.palette.text.primary}; fix it*/
-  color: #6c6c6c;
+  color: ${({ theme }) => theme.palette.info.main};
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-style: normal;
@@ -46,8 +45,9 @@ export const Text = styled.div<MuiEmotion>`
   line-height: normal;
 `;
 
-export const Line = styled.div`
-  border-bottom: 1px solid #6c6c6c;
+export const Line = styled.div<MuiEmotion>`
+  border-bottom: ${({ theme }) => `1px solid ${theme.palette.info.main}`};
+
   margin: 20px 0px;
 `;
 

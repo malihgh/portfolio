@@ -1,25 +1,31 @@
-import { createTheme } from "@mui/material";
+import { PaletteMode, createTheme } from "@mui/material";
 
-export const customTheme = createTheme({
-  typography: {
-    button: {
-      textTransform: "none",
+function isLightMode(mode: PaletteMode): mode is "light" {
+  return mode === "light";
+}
+export const HandleSth = (mode: PaletteMode) => {
+  return createTheme({
+    typography: {
+      button: {
+        textTransform: "none",
+      },
     },
-  },
-  palette: {
-    primary: {
-      main: "#2FBFBF",
-      light: "#2fbfbf24",
+    palette: {
+      mode: mode,
+      primary: {
+        main: "#2FBFBF",
+        light: "#2fbfbf24",
+      },
+      secondary: {
+        main: "#FFB400",
+      },
+      text: {
+        primary: isLightMode(mode) ? "#303535" : "#fff",
+        secondary: "#FFF",
+      },
+      info: {
+        main: isLightMode(mode) ? "#6c6c6c" : "#cacaca",
+      },
     },
-    secondary: {
-      main: "#FFB400",
-    },
-    text: {
-      primary: "#303535",
-      secondary: "#FFF",
-    },
-    info: {
-      main: "#585C5C",
-    },
-  },
-});
+  });
+};

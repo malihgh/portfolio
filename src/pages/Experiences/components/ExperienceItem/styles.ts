@@ -37,10 +37,11 @@ export const SectionLine = styled.div`
   }
 `;
 
-export const Line = styled.div`
+export const Line = styled.div<MuiEmotion>`
   width: 1px;
   height: 100%;
-  background-color: #d0d0d0;
+  background-color: ${({ theme }) => theme.palette.info.main};
+  opacity: 0.4;
 `;
 
 export const Circle = styled.div<CircleColorType>`
@@ -69,8 +70,8 @@ export const Title = styled.div<MuiEmotion>`
   margin-bottom: 7px;
 `;
 
-export const Description = styled.div`
-  color: #6c6c6c;
+export const Description = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-style: normal;

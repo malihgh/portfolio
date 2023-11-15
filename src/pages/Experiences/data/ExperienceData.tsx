@@ -32,16 +32,25 @@ export const ExperienceData: ExperienceItemType[] = [
     title: "Front End and React Native Developer",
     description: (
       <>
-        As an intern in{" "}
-        <CustomHref to="https://www.baker-street.ch/">
-          <strong>Baker Street</strong>
+        As an intern in
+        <CustomHref
+          to="https://www.baker-street.ch/"
+          style={{ color: "inherit", textDecoration: "none" }}
+        >
+          <strong> Baker Street</strong>
         </CustomHref>
         , I was in charge of maintaining and developing{" "}
-        <CustomHref to="https://play.google.com/store/apps/details?id=com.gofleet.driver&hl=en&gl=Us">
+        <CustomHref
+          to="https://play.google.com/store/apps/details?id=com.gofleet.driver&hl=en&gl=Us"
+          style={{ color: "inherit", textDecoration: "none" }}
+        >
           <strong>go! Fleet</strong>
         </CustomHref>{" "}
         Driver app and{" "}
-        <CustomHref to="https://go-fleet.ch/en/product/go-cockpit/">
+        <CustomHref
+          to="https://go-fleet.ch/en/product/go-cockpit/"
+          style={{ color: "inherit", textDecoration: "none" }}
+        >
           <strong>Cockpit</strong>
         </CustomHref>{" "}
         website. My responsibilities included adding new features and screens.

@@ -21,8 +21,8 @@ export const Title = styled.div<MuiEmotion>`
   align-self: center;
 `;
 
-export const SubTitle = styled.div`
-  color: #6c6c6c; //fix
+export const SubTitle = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 15px;

@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const Container = styled.div`
   flex: 1;
@@ -11,8 +12,8 @@ export const TitleContainer = styled.div`
   align-items: flex-start;
 `;
 
-export const Title = styled.div`
-  color: #4a4a4a;
+export const Title = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.text.primary};
   text-align: center;
   font-family: "Poppins-Bold", sans-serif;
   font-size: 32px;
@@ -25,20 +26,20 @@ export const Category = styled.div`
   margin-bottom: 15px;
 `;
 
-export const Expertise = styled.div`
+export const Expertise = styled.div<MuiEmotion>`
   display: inline-block;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 5px 7px;
   border-radius: 6px;
-  background: #eaf3f3;
+  background: ${({ theme }) => theme.palette.primary.light};
   margin-right: 10px;
   margin-bottom: 7px;
 `;
 
-export const Text = styled.div`
-  color: #5b5b5b;
+export const Text = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-style: normal;
