@@ -12,11 +12,6 @@ export const HeaderContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* Make header sticky 
-  width: -moz-available;
-  position: fixed;
-  padding: 5px 85px;
-  z-index: 10; */
 `;
 
 export const Name = styled.div<MuiEmotion>`
@@ -26,7 +21,6 @@ export const Name = styled.div<MuiEmotion>`
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  /* margin-right: 55px; */
 
   @media only screen and (max-width: 740px) {
     margin-right: 0px;
