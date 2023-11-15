@@ -9,10 +9,10 @@ export const Container = styled.div`
   display: flex;
 `;
 
-export const Duration = styled.div`
+export const Duration = styled.div<MuiEmotion>`
   flex: 1;
   margin-top: -5px; //for aligning with the circle
-  color: #303535;
+  color: ${({ theme }) => theme.palette.text.primary};
   text-align: right;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -59,8 +59,8 @@ export const DescriptionContainer = styled.div`
   padding-bottom: 20px;
 `;
 
-export const Title = styled.div`
-  color: #303535;
+export const Title = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.text.primary};
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;

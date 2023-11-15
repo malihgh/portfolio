@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const Card = styled.div`
   margin-top: 10px;
@@ -30,8 +31,8 @@ export const InfoContainer = styled.div`
   height: 60px; //to not change the size of the card
 `;
 
-export const Title = styled.div`
-  color: #303535;
+export const Title = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.text.primary};
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
