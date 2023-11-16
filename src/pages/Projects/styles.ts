@@ -1,8 +1,10 @@
 import styled from "@emotion/styled";
 import ScreenContainer from "core/components/ScreenContainer";
+import { MuiEmotion } from "core/types/MuiEmotion";
 
-export const ProjectsContainer = styled(ScreenContainer)`
-  background-color: #fffcf3;
+export const ProjectsContainer = styled(ScreenContainer)<MuiEmotion>`
+  background-color: ${({ theme }) =>
+    theme.palette.mode === "light" ? "#fffcf3" : theme.palette.primary.light};
 `;
 
 export const TitleContainer = styled.div`

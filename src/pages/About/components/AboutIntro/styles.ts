@@ -12,7 +12,7 @@ export const AboutIntroContainer = styled.div`
 `;
 
 export const Description = styled.div<MuiEmotion>`
-  color: #6c6c6c;
+  color: ${({ theme }) => theme.palette.info.main};
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -38,8 +38,8 @@ export const Row = styled.div`
   }
 `;
 
-export const Line = styled.div`
-  color: #8f8f8f;
+export const Line = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   margin-top: -3px;
 
   //to not add scrollbar in chrome
@@ -48,8 +48,8 @@ export const Line = styled.div`
   }
 `;
 
-export const Text = styled.div`
-  color: #a0a0a0;
+export const Text = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-style: normal;

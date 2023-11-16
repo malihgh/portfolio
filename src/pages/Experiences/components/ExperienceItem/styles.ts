@@ -9,10 +9,10 @@ export const Container = styled.div`
   display: flex;
 `;
 
-export const Duration = styled.div`
+export const Duration = styled.div<MuiEmotion>`
   flex: 1;
   margin-top: -5px; //for aligning with the circle
-  color: #303535;
+  color: ${({ theme }) => theme.palette.text.primary};
   text-align: right;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -37,10 +37,11 @@ export const SectionLine = styled.div`
   }
 `;
 
-export const Line = styled.div`
+export const Line = styled.div<MuiEmotion>`
   width: 1px;
   height: 100%;
-  background-color: #d0d0d0;
+  background-color: ${({ theme }) => theme.palette.info.main};
+  opacity: 0.4;
 `;
 
 export const Circle = styled.div<CircleColorType>`
@@ -59,8 +60,8 @@ export const DescriptionContainer = styled.div`
   padding-bottom: 20px;
 `;
 
-export const Title = styled.div`
-  color: #303535;
+export const Title = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.text.primary};
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -69,8 +70,8 @@ export const Title = styled.div`
   margin-bottom: 7px;
 `;
 
-export const Description = styled.div`
-  color: #6c6c6c;
+export const Description = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-style: normal;

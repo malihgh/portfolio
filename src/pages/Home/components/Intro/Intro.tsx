@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
-import pointer from "assets/images/pinter-short-green.png";
-import excited from "assets/images/excited-shape.png";
+import pointer from "assets/images/pinter-short-green.svg";
+import excited from "assets/images/excited-shape.svg";
 import Button from "core/components/Button";
 import { HashLink } from "react-router-hash-link";
 
@@ -10,12 +10,14 @@ const Intro = () => {
       <Styled.Shape src={excited} />
       <Styled.Pointer src={pointer} />
       <Styled.Title>
-        Hello, I’m Maliheh Ghasemian A Front End Developer
+        Hello!
+        <div /> I’m Maliheh Ghasemian,
+        <div /> a Front End Developer.
       </Styled.Title>
       <Styled.Description>
-        I’m 26 and I’m living in Lugano and I am working at Geomatic group at
-        SUPSI as a front-end developer, working with a variety of technologies
-        such as React JS and Vue JS.
+        You can see a young and passionate Front End developer who is always
+        looking for new challenges and opportunities to learn and grow. Let me
+        explain a little bit about myself.
       </Styled.Description>
 
       <HashLink to="/#skill" smooth style={{ textDecoration: "none" }}>

@@ -4,7 +4,10 @@ import background from "assets/images/about-background.png";
 import ScreenContainer from "core/components/ScreenContainer";
 
 export const AboutContainer = styled(ScreenContainer)<MuiEmotion>`
-  background-image: url(${background});
+  background-image: ${({ theme }) =>
+    theme.palette.mode === "light" && `url(${background})`};
+  background-color: ${({ theme }) =>
+    theme.palette.mode === "dark" && theme.palette.primary.light};
   background-size: 100% 100%;
   background-repeat: no-repeat;
 

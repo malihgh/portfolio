@@ -3,6 +3,7 @@ import Experiences from "pages/Experiences";
 import Home from "pages/Home";
 import Skill from "pages/Skill";
 import Projects from "pages/Projects";
+import Contact from "pages/Contact";
 
 const Root = () => {
   return (
@@ -25,6 +26,10 @@ const Root = () => {
 
       <section id="projects">
         <Projects />
+      </section>
+
+      <section id="contact">
+        <Contact />
       </section>
     </>
   );

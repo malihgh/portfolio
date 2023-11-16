@@ -1,8 +1,8 @@
 import * as Styled from "./styles";
-import Linkedin from "assets/images/in.png";
-import github from "assets/images/github.png";
-import gitlab from "assets/images/gitlab.png";
-import { Link } from "react-router-dom";
+import Linkedin from "assets/images/in.svg";
+import github from "assets/images/github.svg";
+import gitlab from "assets/images/gitlab.svg";
+import CustomHref from "core/components/CustomHref";
 
 const buttons = [
   {
@@ -23,18 +23,17 @@ const buttons = [
 ];
 const SocialLinks = () => {
   return (
-    <>
+    <div>
       {buttons.map((button) => (
-        <Link
+        <CustomHref
           key={button.id}
-          target="_blank"
           to={button.link}
-          style={{ textDecoration: "none" }}
+          style={{ marginRight: 10 }}
         >
           <Styled.Icon src={button.icon} />
-        </Link>
+        </CustomHref>
       ))}
-    </>
+    </div>
   );
 };
 

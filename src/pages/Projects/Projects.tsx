@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
 import HeaderWithIcon from "core/components/HeaderWithIcon";
-import excited from "assets/images/excited-shape-black.png";
+import excited from "assets/images/excited-shape-black.svg";
 import ProjectList from "./components/ProjectList";
 
 const Projects = () => {

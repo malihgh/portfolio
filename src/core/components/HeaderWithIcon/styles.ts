@@ -15,14 +15,14 @@ export const Title = styled.div<MuiEmotion>`
   font-size: 44px;
   font-style: normal;
   line-height: 48px;
-  padding: 30px 0px 0px 30px;
+  padding-top: 30px;
   position: relative;
   display: inline-block;
   align-self: center;
 `;
 
-export const SubTitle = styled.div`
-  color: #6c6c6c; //fix
+export const SubTitle = styled.div<MuiEmotion>`
+  color: ${({ theme }) => theme.palette.info.main};
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 15px;

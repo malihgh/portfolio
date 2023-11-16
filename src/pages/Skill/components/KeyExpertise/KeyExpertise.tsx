@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
 import { KeyExpertiseData } from "../../data/KeyExpertiseData";
-import arrow from "assets/images/arrow-right.png";
+import arrow from "assets/images/arrow-right.svg";
 
 const KeyExpertise = () => {
   return (
