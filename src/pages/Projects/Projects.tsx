@@ -9,7 +9,7 @@ const Projects = () => {
       <Styled.TitleContainer>
         <HeaderWithIcon
           title="Projects"
-          subTitle="Here you will find some of the personal and clients projects that I created with each project containing its own case study"
+          subTitle="Explore a showcase of both personal passion projects and client collaborations that I've brought to life."
           titleStyle={{
             margin: "auto",
           }}
