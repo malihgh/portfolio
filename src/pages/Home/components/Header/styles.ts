@@ -53,5 +53,18 @@ export const PageName = styled.div<PageNameType>`
 export const CV = styled(CVButton)`
   @media only screen and (max-width: 740px) {
     margin-left: 0px;
+    display: none; //fix it later
+  }
+`;
+
+export const DarkMode = styled.img<MuiEmotion>`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+
+  :hover {
+    background-color: ${({ theme }) => theme.palette.primary.main};
   }
 `;
