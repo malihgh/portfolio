@@ -10,11 +10,10 @@ interface PageNameType extends MuiEmotion {
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 `;
 
 export const Name = styled.div<MuiEmotion>`
+  flex: 1;
   color: ${({ theme }) => theme.palette.primary.main};
   font-family: "Poppins", sans-serif;
   font-size: 32px;
@@ -27,10 +26,17 @@ export const Name = styled.div<MuiEmotion>`
   }
 `;
 
-export const Pages = styled.div`
+export const PageContainer = styled.div`
+  flex: 2.5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+`;
+
+export const Pages = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
 
 export const PageName = styled.div<PageNameType>`
@@ -55,6 +61,14 @@ export const CV = styled(CVButton)`
     margin-left: 0px;
     display: none; //fix it later
   }
+`;
+
+export const DarkModeContainer = styled.div`
+  flex: 1;
+`;
+
+export const DarkModeMakeRight = styled.div`
+  float: right;
 `;
 
 export const DarkMode = styled.img<MuiEmotion>`

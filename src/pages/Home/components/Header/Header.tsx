@@ -26,18 +26,25 @@ const Header = () => {
     <Styled.HeaderContainer>
       <Styled.Name>Maliheh</Styled.Name>
 
-      {pagesListData.map((page) => (
-        <Styled.Pages key={page.id}>
-          <HashLink smooth to={page.path} style={{ textDecoration: "none" }}>
-            <Styled.PageName active={page.id === 0}>
-              {page.name}
-            </Styled.PageName>
-          </HashLink>
-        </Styled.Pages>
-      ))}
+      <Styled.PageContainer>
+        {pagesListData.map((page) => (
+          <Styled.Pages key={page.id}>
+            <HashLink smooth to={page.path} style={{ textDecoration: "none" }}>
+              <Styled.PageName active={page.id === 0}>
+                {page.name}
+              </Styled.PageName>
+            </HashLink>
+          </Styled.Pages>
+        ))}
 
-      <Styled.DarkMode src={modeIcon} onClick={toggleColorMode} />
-      <Styled.CV />
+        <Styled.DarkMode src={modeIcon} onClick={toggleColorMode} />
+      </Styled.PageContainer>
+
+      <Styled.DarkModeContainer>
+        <Styled.DarkModeMakeRight>
+          <Styled.CV />
+        </Styled.DarkModeMakeRight>
+      </Styled.DarkModeContainer>
     </Styled.HeaderContainer>
   );
 };
