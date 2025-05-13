@@ -28,6 +28,10 @@ export const ExpertiseData: Expertise[] = [
       "Jest",
       "React Testing Library",
       "Node.js",
+      "React Hook Form",
+      "Zod",
+      "Contentful (Headless CMS)",
+      "Algolia",
     ],
   },
   {

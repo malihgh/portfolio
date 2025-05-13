@@ -18,8 +18,9 @@ export const Container = styled.div<MuiEmotion>`
 
   @media only screen and (max-width: 740px) {
     flex-direction: column;
-    height: 90%;
-    margin: 30px 0px;
+    height: 85%;
+    margin: 0;
+    border-radius: 0;
     background-size: inherit;
     background-repeat: repeat;
   }
@@ -30,7 +31,7 @@ export const TextContainer = styled.div`
   flex: 2;
 
   @media only screen and (max-width: 740px) {
-    padding: 25px 30px;
+    padding: 20px 20px;
   }
 `;
 
@@ -56,6 +57,7 @@ export const Shape = styled.img`
 
   @media only screen and (max-width: 740px) {
     margin-top: -10px;
+    position: absolute;
   }
 `;
 

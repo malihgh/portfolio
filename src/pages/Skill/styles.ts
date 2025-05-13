@@ -31,6 +31,6 @@ export const Star = styled.img`
 
   @media only screen and (max-width: 740px) {
     top: 35px;
-    left: 50px;
+    left: 30px;
   }
 `;

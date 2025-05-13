@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
-export const Card = styled.div`
+export const Card = styled.div<{ hasUrl: boolean }>`
   margin-top: 10px;
   flex: 1;
   display: flex;
@@ -9,12 +9,13 @@ export const Card = styled.div`
   justify-content: center;
   flex-direction: column;
   padding: 0px 10px;
+  cursor: ${({ hasUrl }) => hasUrl && "pointer"};
 `;
 
 export const ImageFrame = styled.div`
   background-color: #edf0ee;
   width: 100%;
-  height: 225px;
+  max-height: 225px;
   border-radius: 15px;
   overflow: hidden;
   margin-bottom: 10px;

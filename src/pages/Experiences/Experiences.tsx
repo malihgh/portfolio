@@ -4,7 +4,7 @@ import * as Styled from "./styles";
 
 const Experiences = () => {
   return (
-    <Styled.ExperiencesContainer>
+    <Styled.ExperiencesContainer parentStyle={{ height: "auto" }}>
       <Styled.Row>
         <ExperienceTitle />
         <ExperienceBox />

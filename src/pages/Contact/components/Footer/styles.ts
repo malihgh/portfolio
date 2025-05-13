@@ -3,6 +3,15 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 740px) {
+    padding: 20px;
+  }
+`;
+export const HeaderAndInfoContainer = styled.div`
+  display: flex;
   justify-content: space-between;
 `;
 
@@ -58,6 +67,6 @@ export const RowContainer = styled.div`
   @media only screen and (max-width: 740px) {
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 20px;
+    gap: 4px;
   }
 `;

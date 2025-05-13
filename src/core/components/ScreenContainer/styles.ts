@@ -19,9 +19,9 @@ export const Padding = styled.div`
   padding: 30px 85px;
 
   @media only screen and (max-width: 740px) {
-    padding: 20px 55px;
+    padding: 20px 20px;
   }
   @media only screen and (max-width: 1024px) {
-    padding: 20px 55px;
+    //padding: 20px 55px;
   }
 `;

@@ -10,11 +10,13 @@ const ExperienceItem: FC<ExperienceItemProps> = (props) => {
 
   return (
     <Styled.Container>
-      <Styled.Duration>{date}</Styled.Duration>
-      <Styled.SectionLine>
-        <Styled.Circle isPrimary={id % 2 === 0} />
-        <Styled.Line />
-      </Styled.SectionLine>
+      <Styled.TimeAndLineContainer>
+        <Styled.Duration>{date}</Styled.Duration>
+        <Styled.SectionLine>
+          <Styled.Circle isPrimary={id % 2 === 0} />
+          <Styled.Line />
+        </Styled.SectionLine>
+      </Styled.TimeAndLineContainer>
       <Styled.DescriptionContainer>
         <Styled.Title>{title}</Styled.Title>
         <Styled.Description>{description}</Styled.Description>

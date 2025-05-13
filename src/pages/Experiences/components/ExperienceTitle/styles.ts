@@ -18,6 +18,10 @@ export const Pointer = styled.img`
   height: 235px;
   padding-top: 60px;
   padding-left: 60px;
+
+  @media only screen and (max-width: 740px) {
+    padding-top: 0;
+  }
 `;
 
 export const CV = styled(CVButton)`

@@ -5,8 +5,8 @@ import SocialLinks from "pages/About/components/SocialLinks";
 
 const Footer = () => {
   return (
-    <>
-      <Styled.Container>
+    <Styled.Container>
+      <Styled.HeaderAndInfoContainer>
         <Styled.PageContainer>
           {pagesListData.map((page) => (
             <HashLink
@@ -25,7 +25,7 @@ const Footer = () => {
           <Styled.Divider>|</Styled.Divider>
           <Styled.Text>Mail: malih.ghasemian@gmail.com</Styled.Text>
         </Styled.InfoContainer>
-      </Styled.Container>
+      </Styled.HeaderAndInfoContainer>
 
       <Styled.Line />
 
@@ -38,7 +38,7 @@ const Footer = () => {
 
         <SocialLinks />
       </Styled.RowContainer>
-    </>
+    </Styled.Container>
   );
 };
 

@@ -23,7 +23,7 @@ const buttons = [
 ];
 const SocialLinks = () => {
   return (
-    <div>
+    <Styled.Container>
       {buttons.map((button) => (
         <CustomHref
           key={button.id}
@@ -33,7 +33,7 @@ const SocialLinks = () => {
           <Styled.Icon src={button.icon} />
         </CustomHref>
       ))}
-    </div>
+    </Styled.Container>
   );
 };
 

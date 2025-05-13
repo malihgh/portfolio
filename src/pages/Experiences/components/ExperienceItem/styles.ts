@@ -7,6 +7,19 @@ interface CircleColorType extends MuiEmotion {
 
 export const Container = styled.div`
   display: flex;
+  justify-content: flex-start;
+
+  @media only screen and (max-width: 740px) {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+`;
+
+export const TimeAndLineContainer = styled.div`
+  display: flex;
+  @media only screen and (max-width: 740px) {
+    margin-bottom: 10px;
+  }
 `;
 
 export const Duration = styled.div<MuiEmotion>`
@@ -19,9 +32,14 @@ export const Duration = styled.div<MuiEmotion>`
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
+  max-width: 100px;
 
   @media only screen and (max-width: 740px) {
     text-align: left;
+    max-width: fit-content;
+    margin-top: 0;
+    padding-left: 10px;
+    order: 2;
   }
 `;
 
@@ -33,7 +51,10 @@ export const SectionLine = styled.div`
   margin: 0 15px;
 
   @media only screen and (max-width: 740px) {
-    margin: 0 15px;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 1;
   }
 `;
 
@@ -42,6 +63,10 @@ export const Line = styled.div<MuiEmotion>`
   height: 100%;
   background-color: ${({ theme }) => theme.palette.info.main};
   opacity: 0.4;
+  @media only screen and (max-width: 740px) {
+    height: 1px;
+    width: 100%;
+  }
 `;
 
 export const Circle = styled.div<CircleColorType>`
@@ -82,9 +107,5 @@ export const Description = styled.div<MuiEmotion>`
   strong {
     font-weight: 700;
     filter: brightness(70%);
-  }
-
-  @media only screen and (max-width: 740px) {
-    text-align: left;
   }
 `;
