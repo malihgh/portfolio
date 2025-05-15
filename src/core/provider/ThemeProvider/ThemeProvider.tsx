@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from "react";
 import { ThemeProvider, PaletteMode } from "@mui/material";
-import { HandleSth } from "core/styles/theme";
+import { Theme } from "core/styles/theme";
 import GlobalStyle from "core/styles/globalStyle";
 import { ColorModeContext } from "./context/colorModeContext";
 
@@ -15,7 +15,7 @@ const StyledThemeProvider: FC<StyledThemeType> = ({ children }) => {
 
   return (
     <ColorModeContext.Provider value={obj}>
-      <ThemeProvider theme={HandleSth(mode)}>
+      <ThemeProvider theme={Theme(mode)}>
         <GlobalStyle />
         {children}
       </ThemeProvider>
