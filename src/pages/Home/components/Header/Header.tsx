@@ -1,19 +1,22 @@
-import { useContext } from "react";
-import * as Styled from "./styles";
-import { pagesListData } from "pages/Home/data/PageListData";
-import { HashLink } from "react-router-hash-link";
 import { PaletteMode } from "@mui/material";
+import darkMode from "assets/images/dark-mode.svg";
+import lightMode from "assets/images/light-mode.svg";
 import {
   ColorModeContext,
   ColorModeContextType,
 } from "core/provider/ThemeProvider/context/colorModeContext";
-import darkMode from "assets/images/dark-mode.svg";
-import lightMode from "assets/images/light-mode.svg";
+import { pagesListData } from "pages/Home/data/PageListData";
+import { useContext } from "react";
+import { HashLink } from "react-router-hash-link";
+import * as Styled from "./styles";
+import { HeaderContainerOverlay } from "./styles";
+import useCurrentHash from "./useCurrentHash";
 
 const Header = () => {
   const { mode, setMode } = useContext(
     ColorModeContext
   ) as ColorModeContextType;
+  const fullPath = useCurrentHash();
 
   const toggleColorMode = () => {
     setMode((prevMode: PaletteMode) =>
@@ -24,27 +27,41 @@ const Header = () => {
 
   return (
     <Styled.HeaderContainer>
-      <Styled.Name>Maliheh</Styled.Name>
+      <HeaderContainerOverlay>
+        <Styled.Name>Maliheh</Styled.Name>
 
-      <Styled.PageContainer>
-        {pagesListData.map((page) => (
-          <Styled.Pages key={page.id}>
-            <HashLink smooth to={page.path} style={{ textDecoration: "none" }}>
-              <Styled.PageName active={page.id === 0}>
-                {page.name}
-              </Styled.PageName>
-            </HashLink>
-          </Styled.Pages>
-        ))}
+        <Styled.PageContainer>
+          {pagesListData.map((page) => (
+            <Styled.Pages key={page.id}>
+              <HashLink
+                smooth
+                to={page.path}
+                style={{ textDecoration: "none" }}
+                scroll={(el) => {
+                  const yOffset = -72; // same as your header height
+                  const y =
+                    el.getBoundingClientRect().top +
+                    window.pageYOffset +
+                    yOffset;
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }}
+              >
+                <Styled.PageName active={fullPath === page.path}>
+                  {page.name}
+                </Styled.PageName>
+              </HashLink>
+            </Styled.Pages>
+          ))}
 
-        <Styled.DarkMode src={modeIcon} onClick={toggleColorMode} />
-      </Styled.PageContainer>
+          <Styled.DarkMode src={modeIcon} onClick={toggleColorMode} />
+        </Styled.PageContainer>
 
-      <Styled.DarkModeContainer>
-        <Styled.DarkModeMakeRight>
-          <Styled.CV />
-        </Styled.DarkModeMakeRight>
-      </Styled.DarkModeContainer>
+        <Styled.DarkModeContainer>
+          <Styled.DarkModeMakeRight>
+            <Styled.CV />
+          </Styled.DarkModeMakeRight>
+        </Styled.DarkModeContainer>
+      </HeaderContainerOverlay>
     </Styled.HeaderContainer>
   );
 };

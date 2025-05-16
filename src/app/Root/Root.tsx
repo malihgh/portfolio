@@ -4,10 +4,12 @@ import Home from "pages/Home";
 import Skill from "pages/Skill";
 import Projects from "pages/Projects";
 import Contact from "pages/Contact";
+import Header from "pages/Home/components/Header";
 
 const Root = () => {
   return (
     <>
+      <Header />
       <section id="home">
         <Home />
       </section>

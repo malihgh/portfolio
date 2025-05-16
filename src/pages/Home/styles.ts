@@ -15,6 +15,7 @@ export const Container = styled(ScreenContainer)<MuiEmotion>`
 
   display: flex;
   flex-direction: column;
+  padding-top: 120px;
 `;
 
 export const Row = styled.div`

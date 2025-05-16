@@ -7,9 +7,26 @@ interface PageNameType extends MuiEmotion {
   active: boolean;
 }
 
-export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.div<MuiEmotion>`
   display: flex;
   flex-direction: row;
+  background-color: white; //fix for darkmode
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+  @media only screen and (max-width: 740px) {
+    //padding: 20px 20px;
+  }
+`;
+export const HeaderContainerOverlay = styled.div<MuiEmotion>`
+  display: flex;
+  flex-direction: row;
+  padding: 10px 85px;
+  background-color: ${({ theme }) => theme.palette.primary.light};
+  width: 100%;
 `;
 
 export const Name = styled.div<MuiEmotion>`
@@ -32,6 +49,7 @@ export const PageContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 700px;
 `;
 
 export const Pages = styled.div`
