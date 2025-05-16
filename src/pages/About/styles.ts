@@ -14,6 +14,8 @@ export const AboutContainer = styled(ScreenContainer)<MuiEmotion>`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: ${({ theme }) =>
+    theme.palette.mode === "light" && "rgba(255, 255, 255, 0.4)"};
 `;
 
 export const Row = styled.div`
