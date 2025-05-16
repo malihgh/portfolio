@@ -15,6 +15,7 @@ export const FilledButton = styled(Button)<FilledButtonType>`
   border-radius: 38px;
   align-items: flex-start;
   font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 
   background-color: ${({ theme, color }) =>
     color === "primary"

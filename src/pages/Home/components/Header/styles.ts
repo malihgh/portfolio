@@ -16,10 +16,6 @@ export const HeaderContainer = styled.div<MuiEmotion>`
   top: 0;
   width: 100%;
   z-index: 10;
-
-  @media only screen and (max-width: 740px) {
-    //padding: 20px 20px;
-  }
 `;
 export const HeaderContainerOverlay = styled.div<MuiEmotion>`
   display: flex;
@@ -27,6 +23,9 @@ export const HeaderContainerOverlay = styled.div<MuiEmotion>`
   padding: 10px 85px;
   background-color: ${({ theme }) => theme.palette.primary.light};
   width: 100%;
+  @media only screen and (max-width: 740px) {
+    padding: 10px 12px;
+  }
 `;
 
 export const Name = styled.div<MuiEmotion>`
@@ -67,22 +66,28 @@ export const PageName = styled.div<PageNameType>`
   line-height: normal;
 
   @media only screen and (max-width: 740px) {
-    display: none; //fix it later
+    display: none;
   }
   @media only screen and (max-width: 1024px) {
-    display: none; //fix it later
+    display: none;
   }
 `;
 
 export const CV = styled(CVButton)`
   @media only screen and (max-width: 740px) {
-    margin-left: 0px;
-    display: none; //fix it later
+    padding: 3px 6px;
+    min-width: 100px;
   }
 `;
 
 export const DarkModeContainer = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 740px) {
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+  }
 `;
 
 export const DarkModeMakeRight = styled.div`
