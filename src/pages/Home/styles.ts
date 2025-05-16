@@ -37,4 +37,8 @@ export const Row = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;

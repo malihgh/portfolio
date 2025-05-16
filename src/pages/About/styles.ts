@@ -22,4 +22,9 @@ export const Row = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
+
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;

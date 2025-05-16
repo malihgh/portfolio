@@ -14,4 +14,9 @@ export const Row = styled.div`
   @media only screen and (max-width: 740px) {
     flex-direction: column;
   }
+
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
