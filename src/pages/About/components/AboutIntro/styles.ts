@@ -40,7 +40,7 @@ export const Row = styled.div`
 
 export const Line = styled.div<MuiEmotion>`
   color: ${({ theme }) => theme.palette.info.main};
-  margin-top: -3px;
+  margin-top: -8px;
 
   //to not add scrollbar in chrome
   @media only screen and (max-width: 830px) {
