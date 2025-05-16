@@ -5,7 +5,7 @@ import ProjectList from "./components/ProjectList";
 
 const Projects = () => {
   return (
-    <Styled.ProjectsContainer parentStyle={{ height: "auto" }}>
+    <Styled.ProjectsContainer>
       <Styled.TitleContainer>
         <HeaderWithIcon
           title="Projects"

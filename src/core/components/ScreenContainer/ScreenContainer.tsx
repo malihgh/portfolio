@@ -3,16 +3,14 @@ import * as Styled from "./styles";
 
 type ScreenContainerProps = {
   children: React.ReactNode;
-  parentStyle?: object;
 };
 
 const ScreenContainer: FC<ScreenContainerProps> = ({
   children,
-  parentStyle,
   ...props
 }) => {
   return (
-    <Styled.Container style={parentStyle}>
+    <Styled.Container>
       <Styled.Padding {...props}>{children}</Styled.Padding>
     </Styled.Container>
   );

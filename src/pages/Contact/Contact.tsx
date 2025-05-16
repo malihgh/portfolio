@@ -4,7 +4,7 @@ import * as Styled from "./styles";
 
 const Contact = () => {
   return (
-    <Styled.Container parentStyle={{ height: "auto" }}>
+    <Styled.Container>
       <LetsTalk />
       <Footer />
     </Styled.Container>
