@@ -24,6 +24,12 @@ export const Container = styled.div<MuiEmotion>`
     background-size: inherit;
     background-repeat: repeat;
   }
+
+  @media only screen and (min-width: 740px) and (max-width: 1024px) {
+    height: 60%;
+    background-size: inherit;
+    background-repeat: repeat;
+  }
 `;
 
 export const TextContainer = styled.div`
@@ -31,6 +37,10 @@ export const TextContainer = styled.div`
   flex: 2;
 
   @media only screen and (max-width: 740px) {
+    padding: 20px 20px;
+  }
+
+  @media only screen and (max-width: 1024px) {
     padding: 20px 20px;
   }
 `;
@@ -47,6 +57,10 @@ export const Title = styled.div`
   @media only screen and (max-width: 740px) {
     font-size: 33px;
   }
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 33px;
+  }
 `;
 
 export const Shape = styled.img`
@@ -56,6 +70,11 @@ export const Shape = styled.img`
   margin-bottom: 10px;
 
   @media only screen and (max-width: 740px) {
+    margin-top: -10px;
+    position: absolute;
+  }
+
+  @media only screen and (max-width: 1024px) {
     margin-top: -10px;
     position: absolute;
   }

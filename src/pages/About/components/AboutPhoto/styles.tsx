@@ -10,8 +10,8 @@ export const AboutPhotoContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media only screen and (max-width: 740px) {
-    display: none; //fix it later
+  @media only screen and (max-width: 1024px) {
+    order: 2;
   }
 `;
 
@@ -36,6 +36,10 @@ export const BorderFrame = styled.div<MuiEmotion>`
   `}
   transform: rotate(20deg);
   position: absolute;
+
+  @media only screen and (max-width: 740px) {
+    transform: rotate(10deg);
+  }
 `;
 
 export const Profile = styled.img`

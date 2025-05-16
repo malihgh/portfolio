@@ -21,6 +21,10 @@ export const Row = styled.div`
     flex-direction: column;
     gap: 20px;
   }
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 
 export const Star = styled.img`

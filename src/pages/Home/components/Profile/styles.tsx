@@ -10,9 +10,6 @@ export const ProfileContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  @media only screen and (max-width: 740px) {
-    display: none; //fix it later
-  }
 `;
 
 export const Frame = styled.div<MuiEmotion>`
@@ -27,6 +24,10 @@ export const Frame = styled.div<MuiEmotion>`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 740px) {
+    margin: 0;
+  }
 `;
 
 export const Profile = styled.img`
