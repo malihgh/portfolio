@@ -10,7 +10,7 @@ interface PageNameType extends MuiEmotion {
 export const HeaderContainer = styled.div<MuiEmotion>`
   display: flex;
   flex-direction: row;
-  background-color: white; //fix for darkmode
+  background-color: ${({ theme }) => theme.palette.background.default};
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
   position: fixed;
   top: 0;
