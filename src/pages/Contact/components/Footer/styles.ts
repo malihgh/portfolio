@@ -15,33 +15,13 @@ export const HeaderAndInfoContainer = styled.div`
   justify-content: space-between;
 `;
 
-export const PageContainer = styled.div`
-  flex: 1;
+export const InfoContainer = styled.div`
+  flex: 1.1;
   display: flex;
   justify-content: space-between;
 
   @media only screen and (max-width: 740px) {
-    display: none;
-  }
-`;
-
-export const InfoContainer = styled.div`
-  flex: 1.1;
-  display: flex;
-  justify-content: flex-end;
-
-  @media only screen and (max-width: 740px) {
     flex-direction: column;
-  }
-`;
-
-export const Divider = styled.div<MuiEmotion>`
-  margin: 0px 5px;
-  color: ${({ theme }) => theme.palette.info.main};
-  margin-top: 3px;
-
-  @media only screen and (max-width: 740px) {
-    display: none;
   }
 `;
 
