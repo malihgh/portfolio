@@ -8,7 +8,7 @@ const AboutPhoto = () => {
       <Styled.Frame>
         <Styled.StarTop src={starTop} />
         <Styled.StartTopText>
-          <strong>4+</strong> Years
+          <strong>5+</strong> Years
           <br /> Experience
         </Styled.StartTopText>
 
