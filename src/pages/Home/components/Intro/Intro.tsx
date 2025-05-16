@@ -20,6 +20,7 @@ const Intro = () => {
         explain a little bit about myself.
       </Styled.Description>
 
+      {/* fix later: Create HashLink core component to not repeat across the website */}
       <HashLink to="/#skill" smooth style={{ textDecoration: "none" }}>
         <Button title="Get Started" style={{ marginTop: 55 }} />
       </HashLink>
