@@ -6,7 +6,7 @@ export const IntroContainer = styled.div`
   flex: 5;
 
   @media only screen and (max-width: 740px) {
-    margin-top: 90px;
+    margin-top: 50px;
   }
 `;
 
@@ -45,6 +45,11 @@ export const Shape = styled.img`
   }
 
   @media only screen and (max-width: 1024px) {
+    top: -30px;
+    right: 0px;
+  }
+
+  @media only screen and (max-width: 1400px) {
     top: -30px;
     right: 0px;
   }

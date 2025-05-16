@@ -88,6 +88,10 @@ export const DarkModeContainer = styled.div`
     align-items: center;
     margin-left: 7px;
   }
+
+  @media only screen and (max-width: 1024px) {
+    margin-left: 7px;
+  }
 `;
 
 export const DarkModeMakeRight = styled.div`
