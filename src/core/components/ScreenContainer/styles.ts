@@ -6,6 +6,8 @@ export const Container = styled.div<MuiEmotion>`
   background-color: ${({ theme }) => theme.palette.background.default};
   height: "auto";
 
+  max-width: 1500px;
+  margin: 0 auto;
   @media only screen and (max-width: 740px) {
     height: auto;
   }
