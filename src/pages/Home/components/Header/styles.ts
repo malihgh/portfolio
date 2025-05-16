@@ -80,7 +80,7 @@ export const CV = styled(CVButton)`
   }
 `;
 
-export const DarkModeContainer = styled.div`
+export const CVContainer = styled.div`
   flex: 1;
 
   @media only screen and (max-width: 740px) {
@@ -94,7 +94,7 @@ export const DarkModeContainer = styled.div`
   }
 `;
 
-export const DarkModeMakeRight = styled.div`
+export const CVMakeRight = styled.div`
   float: right;
 `;
 

@@ -56,11 +56,11 @@ const Header = () => {
           <Styled.DarkMode src={modeIcon} onClick={toggleColorMode} />
         </Styled.PageContainer>
 
-        <Styled.DarkModeContainer>
-          <Styled.DarkModeMakeRight>
+        <Styled.CVContainer>
+          <Styled.CVMakeRight>
             <Styled.CV />
-          </Styled.DarkModeMakeRight>
-        </Styled.DarkModeContainer>
+          </Styled.CVMakeRight>
+        </Styled.CVContainer>
       </HeaderContainerOverlay>
     </Styled.HeaderContainer>
   );
