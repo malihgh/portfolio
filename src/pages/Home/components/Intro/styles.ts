@@ -6,7 +6,7 @@ export const IntroContainer = styled.div`
   flex: 5;
 
   @media only screen and (max-width: 740px) {
-    margin-top: 50px;
+    margin-top: 90px;
   }
 `;
 
