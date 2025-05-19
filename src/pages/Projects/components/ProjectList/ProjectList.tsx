@@ -12,13 +12,14 @@ const ProjectList = () => {
   return (
     <Styled.Container>
       <Styled.ContainerGPT>
-        {projectsData.map((project, index) => (
-          <div key={index}>
-            {project.id < showNumber && (
-              <ProjectCard {...project} key={index} />
-            )}
-          </div>
-        ))}
+        {projectsData.map(
+          (project, index) =>
+            project.id < showNumber && (
+              <div key={index}>
+                <ProjectCard {...project} />{" "}
+              </div>
+            )
+        )}
       </Styled.ContainerGPT>
 
       <Styled.MoreButton

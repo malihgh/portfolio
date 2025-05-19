@@ -9,7 +9,6 @@ export const ContainerGPT = styled.div`
   display: grid;
   gap: 1rem;
   padding: 1rem;
-
   grid-template-columns: 1fr;
 
   @media (min-width: 768px) {
