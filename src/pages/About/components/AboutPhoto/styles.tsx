@@ -38,7 +38,7 @@ export const BorderFrame = styled.div<MuiEmotion>`
   position: absolute;
 
   @media only screen and (max-width: 740px) {
-    transform: rotate(10deg);
+    transform: rotate(0deg);
   }
 `;
 
