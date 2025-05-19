@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <Styled.HeaderContainer>
       <HeaderContainerOverlay>
-        <Styled.Name>Maliheh</Styled.Name>
+        <Styled.Name to={pagesListData[0].path}>Maliheh</Styled.Name>
 
         <Styled.PageContainer>
           {pagesListData.map((page) => (

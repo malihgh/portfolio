@@ -6,11 +6,12 @@ interface Props extends HashLinkProps {
 }
 
 const Link: FC<Props> = (props) => {
-  const { to, children } = props;
+  const { to, children, ...prop } = props;
 
   return (
     <HashLink
       smooth
+      {...prop}
       to={to}
       style={{ textDecoration: "none" }}
       scroll={(el) => {

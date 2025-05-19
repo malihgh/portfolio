@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import CVButton from "core/components/CVButton";
+import Link from "core/components/Link";
 
 import { MuiEmotion } from "core/types/MuiEmotion";
 
@@ -28,7 +29,7 @@ export const HeaderContainerOverlay = styled.div<MuiEmotion>`
   }
 `;
 
-export const Name = styled.div<MuiEmotion>`
+export const Name = styled(Link)<MuiEmotion>`
   flex: 1;
   color: ${({ theme }) => theme.palette.primary.main};
   font-family: "Poppins", sans-serif;
