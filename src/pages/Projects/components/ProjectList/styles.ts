@@ -1,31 +1,23 @@
 import styled from "@emotion/styled";
 import Button from "core/components/Button";
-import { MuiEmotion } from "core/types/MuiEmotion";
-
-interface CardContainerProps extends MuiEmotion {
-  rows: number;
-}
 
 export const Container = styled.div`
   margin-top: 20px;
 `;
 
-export const List = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex: 1;
+export const ContainerGPT = styled.div`
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
 
-  @media only screen and (max-width: 740px) {
-    flex-direction: column;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
   }
-`;
 
-export const CardContainer = styled.div<CardContainerProps>`
-  width: ${({ rows }) => 100 / rows}%;
-
-  @media only screen and (max-width: 740px) {
-    width: 100%;
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 
