@@ -2,28 +2,34 @@ import styled from "@emotion/styled";
 import { MuiEmotion } from "core/types/MuiEmotion";
 
 export const Card = styled.div<{ hasUrl: boolean }>`
+  width: 100%;
+  max-width: 400px;
   margin-top: 10px;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0px 10px;
+  padding: 3px 10px;
   cursor: ${({ hasUrl }) => hasUrl && "pointer"};
 `;
 
 export const ImageFrame = styled.div`
   background-color: #edf0ee;
   width: 100%;
-  max-height: 225px;
-  border-radius: 15px;
+  max-width: 400px;
+  height: 250px;
+  border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Image = styled.img<{ isApp: boolean }>`
   width: 100%;
+  height: 100%;
   object-fit: ${({ isApp }) => isApp && "contain"};
 `;
 
