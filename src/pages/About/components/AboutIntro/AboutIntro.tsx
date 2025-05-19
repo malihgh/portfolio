@@ -24,21 +24,17 @@ const AboutIntro = () => {
         myself. I also have developed several cross‑platform mobile apps and
         websites.
         <div style={{ marginTop: 15 }} />
-        Currently, I am a Front End Developer at the Geomatics group at SUPSI,
-        where I work on different projects mainly with <strong>
-          {" "}
-          React
-        </strong>{" "}
-        and <strong>Vue JS</strong>. For instance, lately I redesigned and built
-        a new website, GESPOS, for managing geomatics surveys collected in
-        Canton Ticino. Working with
-        <strong>
-          {" "}
-          OpenLayer, Ionic, Vue JS, Figma, Contentful, Algolia, Tailwind CSS{" "}
-        </strong>
-        and many other new technologies in a short period of time increased my
-        confidence in learning and using new knowledge and technologies faster
-        and more efficiently.
+        I'm a <strong>Front End Developer</strong> passionate about building
+        clean, responsive web experiences. At <strong>S’nce Group</strong>, I
+        help enhance <strong>KitchenAid’s </strong> digital presence across
+        Europe and the US using <strong>Next.js, Contentful, Algolia,</strong>{" "}
+        and<strong> Tailwind CSS</strong>.
+        <div style={{ marginTop: 15 }} />
+        Previously at <strong>SUPSI’s Geomatics group</strong>, I redesigned and
+        built <strong>GESPOS</strong>, a platform for managing geomatics surveys
+        in Canton Ticino. Working with tools like <strong>Vue JS</strong>,{" "}
+        <strong> OpenLayer, Ionic, Figma, </strong> sharpened my ability to
+        learn fast and deliver modern, user-friendly interfaces.
       </Styled.Description>
 
       <Styled.Row>
