@@ -1,13 +1,13 @@
 import { PaletteMode } from "@mui/material";
 import darkMode from "assets/images/dark-mode.svg";
 import lightMode from "assets/images/light-mode.svg";
+import Link from "core/components/Link";
 import {
   ColorModeContext,
   ColorModeContextType,
 } from "core/provider/ThemeProvider/context/colorModeContext";
 import { pagesListData } from "pages/Home/data/PageListData";
 import { useContext } from "react";
-import { HashLink } from "react-router-hash-link";
 import * as Styled from "./styles";
 import { HeaderContainerOverlay } from "./styles";
 import useCurrentHash from "./useCurrentHash";
@@ -33,23 +33,11 @@ const Header = () => {
         <Styled.PageContainer>
           {pagesListData.map((page) => (
             <Styled.Pages key={page.id}>
-              <HashLink
-                smooth
-                to={page.path}
-                style={{ textDecoration: "none" }}
-                scroll={(el) => {
-                  const yOffset = -72; // same as your header height
-                  const y =
-                    el.getBoundingClientRect().top +
-                    window.pageYOffset +
-                    yOffset;
-                  window.scrollTo({ top: y, behavior: "smooth" });
-                }}
-              >
+              <Link to={page.path}>
                 <Styled.PageName active={fullPath === page.path}>
                   {page.name}
                 </Styled.PageName>
-              </HashLink>
+              </Link>
             </Styled.Pages>
           ))}
 
