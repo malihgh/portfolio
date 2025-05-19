@@ -2,7 +2,7 @@ import * as Styled from "./styles";
 import pointer from "assets/images/pinter-short-green.svg";
 import excited from "assets/images/excited-shape.svg";
 import Button from "core/components/Button";
-import { HashLink } from "react-router-hash-link";
+import Link from "core/components/Link";
 
 const Intro = () => {
   return (
@@ -20,10 +20,9 @@ const Intro = () => {
         explain a little bit about myself.
       </Styled.Description>
 
-      {/* fix later: Create HashLink core component to not repeat across the website */}
-      <HashLink to="/#skill" smooth style={{ textDecoration: "none" }}>
+      <Link to="/#skill">
         <Button title="Get Started" style={{ marginTop: 55 }} />
-      </HashLink>
+      </Link>
     </Styled.IntroContainer>
   );
 };
