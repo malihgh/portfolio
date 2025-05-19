@@ -106,6 +106,5 @@ export const Description = styled.div<MuiEmotion>`
 
   strong {
     font-weight: 700;
-    filter: brightness(70%);
   }
 `;
