@@ -4,7 +4,7 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 export const Card = styled.div<{ hasUrl: boolean }>`
   width: 100%;
   max-width: 400px;
-  margin-top: 10px;
+  margin: 10px auto auto auto;
   flex: 1;
   display: flex;
   align-items: center;
