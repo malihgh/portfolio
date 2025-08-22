@@ -3,11 +3,13 @@ import { MuiEmotion } from "core/types/MuiEmotion";
 import backgroundImage from "assets/images/background-contact.svg";
 
 export const Container = styled.div<MuiEmotion>`
-  background-color: ${({ theme }) => theme.palette.primary.main};
+  background-color: ${({ theme }) =>
+    theme.palette.mode === "light" && theme.palette.primary.main};
   border-radius: 16px;
   height: 220px;
 
-  background-image: url(${backgroundImage});
+  background-image: ${({ theme }) =>
+    theme.palette.mode === "light" && `url(${backgroundImage})`};
   background-size: 107% 100%;
   background-repeat: no-repeat;
 
