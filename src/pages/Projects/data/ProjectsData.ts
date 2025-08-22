@@ -10,6 +10,7 @@ import mixOrMatch from "assets/images/projects/mix-or-match.png";
 import pokemon from "assets/images/projects/pokemon.png";
 import practicaMente from "assets/images/projects/practica-mente.png";
 import swissforages from "assets/images/projects/swissforages.png";
+import maze from "assets/images/projects/maze.png";
 
 export type ProjectsItemType = {
   id: number;
@@ -45,26 +46,33 @@ export const projectsData: ProjectsItemType[] = [
   },
   {
     id: 3,
+    title: "Maze game",
+    description: "A puzzle of paths with no easy way out",
+    url: "https://mali-maze.netlify.app/",
+    image: maze,
+  },
+  {
+    id: 4,
     title: "Gespos",
     description: "Managing geomatics surveys collected in Canton Ticino",
     url: "https://www.ist.supsi.ch/portale-gespos-ist",
     image: gespos,
   },
   {
-    id: 4,
+    id: 5,
     title: "Swissforages",
     description: "Platform to acquire borehole data by Swisstopo",
     image: swissforages,
   },
   {
-    id: 5,
+    id: 6,
     title: "Mix Or Match game",
     description: "Memory game with a twist",
     url: "https://mali-mix-or-match.netlify.app/",
     image: mixOrMatch,
   },
   {
-    id: 6,
+    id: 7,
     title: "Connected Home Care",
     description: "For the elderly and their caregivers",
     isApp: true,
@@ -72,14 +80,14 @@ export const projectsData: ProjectsItemType[] = [
     image: connectedHomeCare,
   },
   {
-    id: 7,
+    id: 8,
     title: "Cockpit Website",
     description: "For connecting passengers and drivers of the go! fleet",
     url: "https://go-fleet.ch/de/",
     image: cockpit,
   },
   {
-    id: 8,
+    id: 9,
     title: "go! Fleet Driver App",
     description: "For the drivers of the go! fleet",
     url: "https://go-fleet.ch/de/",
@@ -87,7 +95,7 @@ export const projectsData: ProjectsItemType[] = [
     image: goFleet,
   },
   {
-    id: 9,
+    id: 10,
     title: "AutoTik",
     description: "For keep track of your car maintenance",
     url: "https://www.youtube.com/watch?v=U1StgHCsvyY",
@@ -95,14 +103,14 @@ export const projectsData: ProjectsItemType[] = [
     image: autoTik,
   },
   {
-    id: 10,
+    id: 11,
     title: "Limo Restaurant",
     description: "For ordering food online",
     url: "https://www.youtube.com/watch?v=8mu5ihADOlE",
     image: limoRestaurant,
   },
   {
-    id: 11,
+    id: 12,
     title: "Asena",
     description: "Time Tracking App",
     url: "https://www.youtube.com/shorts/g4jDDvGodtY",
