@@ -12,3 +12,5 @@ npm run dev
 
 # Visit: http://localhost:5173/
 ```
+
+https://malihgh.goatcounter.com/ for Analyses
