@@ -11,19 +11,25 @@ export const ExperienceData: ExperienceItemType[] = [
   {
     id: 0,
     date: "Jul 2024 - Now",
-    title: "Front End Developer at S'nce group",
+    title: "Full Stack Developer at S'nce group",
     description: (
       <>
-        At <strong>S'nce Group</strong>, I joined a young and passionate team
-        dedicated to enhancing the digital presence of{" "}
-        <strong>KitchenAid</strong>. We work with modern technologies such as{" "}
-        <strong>Next.js</strong>,<strong>Contentful</strong>, and{" "}
-        <strong>Algolia</strong> on a daily basis. I focus on building clean,
-        responsive interfaces using <strong>Tailwind CSS</strong>, helping
-        deliver a seamless and engaging experience for KitchenAid users across{" "}
-        <strong>Europe</strong> and <strong>the US</strong>.
+        At <strong>S'nce Group</strong>, I work as a{" "}
+        <strong>Full Stack Developer</strong> contributing to{" "}
+        <strong>KitchenAid’s global e-commerce platforms</strong>. I’m involved
+        in maintaining and evolving regional websites across{" "}
+        <strong>Europe</strong> and <strong>the US</strong>, building responsive
+        interfaces with <strong>Next.js</strong> and{" "}
+        <strong>Tailwind CSS</strong> in close collaboration with UX designers.
+        I also work with <strong>Contentful</strong> and{" "}
+        <strong>Algolia</strong> to power content management and advanced
+        product search, while contributing to backend services using{" "}
+        <strong>Node.js</strong>, including APIs built with{" "}
+        <strong>Express</strong> and <strong>NestJS</strong>. Working within a
+        large cross-functional team, we focus on delivering scalable, reliable
+        experiences for <strong>KitchenAid</strong> users worldwide.
       </>
-    ),
+    )
   },
   {
     id: 1,
@@ -43,7 +49,7 @@ export const ExperienceData: ExperienceItemType[] = [
         borehole data, developed in collaboration with{" "}
         <strong>Swisstopo</strong>).
       </>
-    ),
+    )
   },
   {
     id: 2,
@@ -54,29 +60,26 @@ export const ExperienceData: ExperienceItemType[] = [
         As an intern in
         <CustomHref
           to="https://www.baker-street.ch/"
-          style={{ color: "inherit", textDecoration: "none" }}
-        >
+          style={{ color: "inherit", textDecoration: "none" }}>
           <strong> Baker Street</strong>
         </CustomHref>
         , I was in charge of maintaining and developing{" "}
         <CustomHref
           to="https://play.google.com/store/apps/details?id=com.gofleet.driver&hl=en&gl=Us"
-          style={{ color: "inherit", textDecoration: "none" }}
-        >
+          style={{ color: "inherit", textDecoration: "none" }}>
           <strong>go! Fleet</strong>
         </CustomHref>{" "}
         Driver app and{" "}
         <CustomHref
           to="https://go-fleet.ch/en/product/go-cockpit/"
-          style={{ color: "inherit", textDecoration: "none" }}
-        >
+          style={{ color: "inherit", textDecoration: "none" }}>
           <strong>Cockpit</strong>
         </CustomHref>{" "}
         website. My responsibilities included adding new features and screens.
         We used <strong>Jest</strong> for testing our library and custom hooks,
         and implemented great cache system with <strong>React Query</strong>.
       </>
-    ),
+    )
   },
   {
     id: 3,
@@ -91,6 +94,6 @@ export const ExperienceData: ExperienceItemType[] = [
         fetching data and store it with <strong>Redux</strong> for state
         management.
       </>
-    ),
-  },
+    )
+  }
 ];

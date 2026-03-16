@@ -14,8 +14,8 @@ const ProjectList = () => {
       <Styled.ContainerGPT>
         {projectsData.map(
           (project, index) =>
-            project.id < showNumber && (
-              <div key={index}>
+            index < showNumber && (
+              <div key={project.id}>
                 <ProjectCard {...project} />{" "}
               </div>
             )

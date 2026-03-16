@@ -12,12 +12,16 @@ const Intro = () => {
       <Styled.Title>
         Hello!
         <div /> I’m Maliheh Ghasemian,
-        <div /> a Front End Developer.
+        <div /> a Full Stack Developer.
       </Styled.Title>
       <Styled.Description>
-        You can see a young and passionate Front End developer who is always
-        looking for new challenges and opportunities to learn and grow. Let me
-        explain a little bit about myself.
+        I'm a Full Stack developer who enjoys turning ideas into{" "}
+        <strong>fast </strong>, <strong>scalable</strong>, and{" "}
+        <strong>user-friendly</strong> web applications. I’m always exploring
+        new <strong>technologies</strong>,{" "}
+        <strong>tackling challenging problems</strong>, and pushing{" "}
+        <strong>my skills</strong> a little further. Here’s a bit about my
+        journey.
       </Styled.Description>
 
       <Link to="/#skill">

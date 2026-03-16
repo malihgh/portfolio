@@ -31,6 +31,10 @@ export const Description = styled.div<MuiEmotion>`
   font-weight: 400;
   line-height: 28px;
   margin-top: 40px;
+
+  strong {
+    font-weight: 600;
+  }
 `;
 
 export const Shape = styled.img`
