@@ -33,7 +33,7 @@ const AboutIntro = () => {
         and development practices.
         <div style={{ marginTop: 15 }} />
         I'm currently working as a{" "}
-        <strong>Full-Stack Developer at S’nce Group</strong>, contributing to{" "}
+        <strong>Full Stack Developer at S’nce Group</strong>, contributing to{" "}
         <strong>KitchenAid’s global e-commerce platforms</strong>. I help
         develop and maintain regional sites across Europe and the US using
         <strong> Next.js, Tailwind CSS, Contentful</strong>, and{" "}

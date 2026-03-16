@@ -19,7 +19,7 @@ export const KeyExpertiseData: KeyExpertiseDataType[] = [
     id: 1,
     title: (
       <>
-        Full-stack development with <strong>Node.js</strong>,{" "}
+        Full Stack development with <strong>Node.js</strong>,{" "}
         <strong>Express</strong>, and <strong>NestJS</strong>
       </>
     )
