@@ -3,12 +3,14 @@ import SocialLinks from "pages/About/components/SocialLinks";
 import CustomHref from "core/components/CustomHref";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <Styled.Container>
       <Styled.HeaderAndInfoContainer>
         <Styled.InfoContainer>
-          <CustomHref to="tel:+41782205098">
-            <Styled.Text>Phone: +41-78 220 50 98</Styled.Text>
+          <CustomHref to="https://t.me/MaliheGhasemian">
+            <Styled.Text>Telegram: MaliheGhasemian</Styled.Text>
           </CustomHref>
 
           <CustomHref to="mailto:malih.ghasemian@gmail.com">
@@ -23,7 +25,7 @@ const Footer = () => {
         <Styled.Text>Maliheh Ghasemian</Styled.Text>
 
         <Styled.Text>
-          Copyright © 2023 Maliheh Ghasemian. All rights reserved.
+          Copyright © {currentYear} Maliheh Ghasemian. All rights reserved.
         </Styled.Text>
 
         <SocialLinks />
