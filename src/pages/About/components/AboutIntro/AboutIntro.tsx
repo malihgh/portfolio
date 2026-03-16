@@ -4,8 +4,23 @@ import star from "assets/images/star-outlined.svg";
 import Button from "core/components/Button";
 import SocialLinks from "../SocialLinks";
 
+const calculateAge = (birthDate: Date): number => {
+  const today = new Date();
+  let age = today.getFullYear() - birthDate.getFullYear();
+  const hasHadBirthdayThisYear =
+    today.getMonth() > birthDate.getMonth() ||
+    (today.getMonth() === birthDate.getMonth() &&
+      today.getDate() >= birthDate.getDate());
+  if (!hasHadBirthdayThisYear) {
+    age--;
+  }
+  return age;
+};
+
 const AboutIntro = () => {
-  const myAge = new Date().getFullYear() - 1 - 1996;
+  const birthDate = new Date(1996, 7, 3);
+  const myAge = calculateAge(birthDate);
+
   return (
     <Styled.AboutIntroContainer>
       <Styled.Star src={star} />
