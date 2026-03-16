@@ -28,48 +28,50 @@ export const projectsData: ProjectsItemType[] = [
     description:
       "A global e-commerce website for KitchenAid, an American appliance brand owned by Whirlpool",
     url: "https://www.kitchenaid.ie/",
-    image: kitchenaid,
+    image: kitchenaid
   },
   {
     id: 1,
     title: "Pokèmon",
     description: "Simulation of pokemon website with the help of pokeapi.co",
     url: "https://mali-pokemon.vercel.app/",
-    image: pokemon,
+    image: pokemon
   },
   {
     id: 2,
     title: "Practica-mente website",
     description: "A bilingual website for a professional coach using Next.js",
     url: "https://practica-mente.vercel.app/en",
-    image: practicaMente,
+    image: practicaMente
   },
+
   {
     id: 3,
-    title: "Maze game",
-    description: "A puzzle of paths with no easy way out",
-    url: "https://mali-maze.netlify.app/",
-    image: maze,
-  },
-  {
-    id: 4,
     title: "Gespos",
     description: "Managing geomatics surveys collected in Canton Ticino",
     url: "https://www.ist.supsi.ch/portale-gespos-ist",
-    image: gespos,
+    image: gespos
+  },
+  {
+    id: 4,
+    title: "Swissforages",
+    description: "Platform to acquire borehole data by Swisstopo",
+    image: swissforages
   },
   {
     id: 5,
-    title: "Swissforages",
-    description: "Platform to acquire borehole data by Swisstopo",
-    image: swissforages,
+    title: "go! Fleet Driver App",
+    description: "For the drivers of the go! fleet",
+    url: "https://go-fleet.ch/de/",
+    isApp: true,
+    image: goFleet
   },
   {
     id: 6,
     title: "Mix Or Match game",
     description: "Memory game with a twist",
     url: "https://mali-mix-or-match.netlify.app/",
-    image: mixOrMatch,
+    image: mixOrMatch
   },
   {
     id: 7,
@@ -77,22 +79,21 @@ export const projectsData: ProjectsItemType[] = [
     description: "For the elderly and their caregivers",
     isApp: true,
     url: "https://apps.apple.com/us/app/connected-home-care/id1122799341",
-    image: connectedHomeCare,
+    image: connectedHomeCare
   },
   {
     id: 8,
     title: "Cockpit Website",
     description: "For connecting passengers and drivers of the go! fleet",
     url: "https://go-fleet.ch/de/",
-    image: cockpit,
+    image: cockpit
   },
   {
     id: 9,
-    title: "go! Fleet Driver App",
-    description: "For the drivers of the go! fleet",
-    url: "https://go-fleet.ch/de/",
-    isApp: true,
-    image: goFleet,
+    title: "Maze game",
+    description: "A puzzle of paths with no easy way out",
+    url: "https://mali-maze.netlify.app/",
+    image: maze
   },
   {
     id: 10,
@@ -100,14 +101,14 @@ export const projectsData: ProjectsItemType[] = [
     description: "For keep track of your car maintenance",
     url: "https://www.youtube.com/watch?v=U1StgHCsvyY",
     isApp: true,
-    image: autoTik,
+    image: autoTik
   },
   {
     id: 11,
     title: "Limo Restaurant",
     description: "For ordering food online",
     url: "https://www.youtube.com/watch?v=8mu5ihADOlE",
-    image: limoRestaurant,
+    image: limoRestaurant
   },
   {
     id: 12,
@@ -115,6 +116,6 @@ export const projectsData: ProjectsItemType[] = [
     description: "Time Tracking App",
     url: "https://www.youtube.com/shorts/g4jDDvGodtY",
     isApp: true,
-    image: asena,
-  },
+    image: asena
+  }
 ];
