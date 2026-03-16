@@ -60,6 +60,13 @@ export const projectsData: ProjectsItemType[] = [
   },
   {
     id: 5,
+    title: "Cockpit Website",
+    description: "For connecting passengers and drivers of the go! fleet",
+    url: "https://go-fleet.ch/de/",
+    image: cockpit
+  },
+  {
+    id: 6,
     title: "go! Fleet Driver App",
     description: "For the drivers of the go! fleet",
     url: "https://go-fleet.ch/de/",
@@ -67,26 +74,19 @@ export const projectsData: ProjectsItemType[] = [
     image: goFleet
   },
   {
-    id: 6,
+    id: 7,
     title: "Mix Or Match game",
     description: "Memory game with a twist",
     url: "https://mali-mix-or-match.netlify.app/",
     image: mixOrMatch
   },
   {
-    id: 7,
+    id: 8,
     title: "Connected Home Care",
     description: "For the elderly and their caregivers",
     isApp: true,
     url: "https://apps.apple.com/us/app/connected-home-care/id1122799341",
     image: connectedHomeCare
-  },
-  {
-    id: 8,
-    title: "Cockpit Website",
-    description: "For connecting passengers and drivers of the go! fleet",
-    url: "https://go-fleet.ch/de/",
-    image: cockpit
   },
   {
     id: 9,
