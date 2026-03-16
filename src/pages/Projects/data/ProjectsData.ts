@@ -85,7 +85,7 @@ export const projectsData: ProjectsItemType[] = [
     title: "Connected Home Care",
     description: "For the elderly and their caregivers",
     isApp: true,
-    url: "https://apps.apple.com/us/app/connected-home-care/id1122799341",
+    // url: "https://apps.apple.com/us/app/connected-home-care/id1122799341", //not working
     image: connectedHomeCare
   },
   {
