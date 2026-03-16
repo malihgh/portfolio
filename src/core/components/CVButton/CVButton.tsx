@@ -5,7 +5,7 @@ import CustomHref from "core/components/CustomHref";
 
 const CVButton: FC<ButtonProps> = (props) => {
   const url =
-    "https://drive.google.com/file/d/10EvAyRIlez1Ql02JU8Jb5brH_ewL4P-Q/view";
+    "https://drive.google.com/file/d/1B0J4t5tuHxfcjmXaXx3MIGiNdAfdBjPU/view?usp=sharing";
 
   return (
     <CustomHref to={url}>
