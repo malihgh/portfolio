@@ -10,38 +10,54 @@ export const KeyExpertiseData: KeyExpertiseDataType[] = [
     id: 0,
     title: (
       <>
-        Experienced with <strong>React</strong>, <strong>TypeScript</strong> and{" "}
-        <strong>HTML5, CSS3, JS</strong>
+        Building scalable apps with <strong>React</strong>,{" "}
+        <strong>Next.js</strong>, and <strong>TypeScript</strong>
       </>
-    ),
+    )
   },
   {
     id: 1,
     title: (
       <>
-        Skilled with <strong>UI/UX</strong> processes and <strong>Agile</strong>
+        Full-stack development with <strong>Node.js</strong>,{" "}
+        <strong>Express</strong>, and <strong>NestJS</strong>
       </>
-    ),
+    )
   },
   {
     id: 2,
     title: (
       <>
-        Familiar with <strong>Design Patterns</strong> and{" "}
-        <strong>Clean Code</strong>
+        Creating responsive UIs using <strong>Tailwind CSS</strong>,{" "}
+        <strong>HTML</strong>, <strong>modern CSS</strong>
       </>
-    ),
+    )
   },
   {
     id: 3,
-    title: <>Good at teamwork, problem solving and math</>,
+    title: (
+      <>
+        Integrating <strong>Contentful</strong> and <strong>Algolia</strong> for
+        scalable search
+      </>
+    )
   },
   {
     id: 4,
     title: (
       <>
-        Skilled in <strong>Object Oriented</strong> design
+        Writing maintainable software with <strong>clean code</strong> and{" "}
+        <strong>design patterns</strong>
       </>
-    ),
+    )
   },
+  {
+    id: 5,
+    title: (
+      <>
+        Delivering production systems in <strong>Agile teams</strong> with{" "}
+        <strong>testing</strong> and <strong>Storybook</strong>
+      </>
+    )
+  }
 ];

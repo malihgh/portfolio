@@ -8,7 +8,7 @@ export const ExpertiseData: Expertise[] = [
   {
     id: 0,
     name: "languages",
-    items: ["HTML", "CSS", "JavaScript", "TypeScript", "C++"],
+    items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "C++", "Python"]
   },
   {
     id: 1,
@@ -31,12 +31,32 @@ export const ExpertiseData: Expertise[] = [
       "React Hook Form",
       "Zod",
       "Contentful (Headless CMS)",
-      "Algolia",
-    ],
+      "Algolia"
+    ]
+  },
+  {
+    id: 2,
+    name: "backends",
+    items: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "PostgreSQL",
+      "Sequelize",
+      "REST API",
+      "GraphQL"
+    ]
   },
   {
     id: 3,
     name: "general",
-    items: ["Git", "Scrum", "REST API", "Figma", "Sketch", "Docker"],
-  },
+    items: [
+      "Git",
+      "Scrum",
+      "Figma",
+      "Sketch",
+      "Docker",
+      "CI/CD (GitHub Actions)"
+    ]
+  }
 ];
