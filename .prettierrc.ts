@@ -1,6 +1,6 @@
 export default {
   bracketSpacing: true,
-  jsxBracketSameLine: true,
+  bracketSameLine: true,
   singleQuote: false,
   trailingComma: "none"
 };
