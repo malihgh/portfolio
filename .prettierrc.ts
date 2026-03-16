@@ -1,7 +1,6 @@
-module.exports = {
-  bracketSpacing: false,
+export default {
+  bracketSpacing: true,
   jsxBracketSameLine: true,
-  singleQuote: true,
-  trailingComma: 'none',
-  arrowParens: 'avoid'
-}
+  singleQuote: false,
+  trailingComma: "none"
+};
