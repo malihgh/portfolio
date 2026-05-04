@@ -13,4 +13,5 @@ npm run dev
 # Visit: http://localhost:5173/
 ```
 
-https://malihgh.goatcounter.com/ for Analyses
+For Deploy on Netlify:
+Copy 404.html on dist folder
