@@ -20,7 +20,7 @@ const calculateAge = (birthDate: Date): number => {
 const AboutIntro = () => {
   const birthDate = new Date(1996, 7, 3);
   const myAge = calculateAge(birthDate);
-
+  const experience = new Date().getFullYear() - 2020;
   return (
     <Styled.AboutIntroContainer>
       <Styled.Star src={star} />
@@ -37,8 +37,8 @@ const AboutIntro = () => {
         University of Technology. During my studies, I started programming with{" "}
         <strong>C++</strong>, which sparked my interest in software development.
         <div style={{ marginTop: 15 }} />
-        Over the last 5 years, I’ve focused on web development, expanding my
-        skills in
+        Over the last {experience} years, I’ve focused on web development,
+        expanding my skills in
         <strong>
           {" "}
           HTML, CSS, JavaScript, TypeScript, React, React Native
