@@ -14,4 +14,4 @@ npm run dev
 ```
 
 For Deploy on Netlify:
-Copy 404.html on dist folder
+Copy 404.html on dist folder.
